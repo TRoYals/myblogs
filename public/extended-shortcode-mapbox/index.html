@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Extended Shortcode - mapbox - FixIt</title><meta name="author" content="Lruihao">
+<meta name="author-link" content="https://lruihao.cn">
+<meta name="description" content="The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library." /><meta name="keywords" content='shortcodes' /><meta itemprop="name" content="Extended Shortcode - mapbox">
+<meta itemprop="description" content="The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library."><meta itemprop="datePublished" content="2022-07-20T12:22:15+08:00" />
+<meta itemprop="dateModified" content="2023-02-14T23:12:19+08:00" />
+<meta itemprop="wordCount" content="324"><meta itemprop="image" content="https://fixit.lruihao.cn/extended-shortcode-mapbox/featured-image.jpg">
+<meta itemprop="keywords" content="shortcodes," /><meta property="og:title" content="Extended Shortcode - mapbox" />
+<meta property="og:description" content="The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fixit.lruihao.cn/extended-shortcode-mapbox/" /><meta property="og:image" content="https://fixit.lruihao.cn/extended-shortcode-mapbox/featured-image.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-20T12:22:15+08:00" />
+<meta property="article:modified_time" content="2023-02-14T23:12:19+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fixit.lruihao.cn/extended-shortcode-mapbox/featured-image.jpg"/>
+<meta name="twitter:title" content="Extended Shortcode - mapbox"/>
+<meta name="twitter:description" content="The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library."/>
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://fixit.lruihao.cn/extended-shortcode-mapbox/" /><link rel="prev" href="https://fixit.lruihao.cn/extended-shortcode-echarts/" /><link rel="next" href="https://fixit.lruihao.cn/extended-shortcode-music/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Extended Shortcode - mapbox",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/fixit.lruihao.cn\/extended-shortcode-mapbox\/"
+    },"image": [{
+              "@type": "ImageObject",
+              "url": "https:\/\/fixit.lruihao.cn\/extended-shortcode-mapbox\/featured-image.jpg",
+              "width":  1144 ,
+              "height":  758 
+            }],"genre": "posts","keywords": "shortcodes","wordcount":  324 ,
+    "url": "https:\/\/fixit.lruihao.cn\/extended-shortcode-mapbox\/","datePublished": "2022-07-20T12:22:15+08:00","dateModified": "2023-02-14T23:12:19+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+      "@type": "Organization",
+      "name": "Lruihao","logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/fixit.lruihao.cn\/images\/avatar.png",
+          "width":  528 ,
+          "height":  560 
+        }},"author": {
+        "@type": "Person",
+        "name": "Lruihao"
+      },"description": "The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library."
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" data-github-corner="right">
+    <div class="header-title">
+      <a href="/" title="FixIt"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="FixIt" data-alt="FixIt" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">FixIt</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Posts</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item has-children">
+              <a
+                class="menu-link"
+                href="/categories/documentation/"
+                title="Theme Documentation"
+                
+              ><i class="fa-solid fa-book fa-fw fa-sm" aria-hidden="true"></i> Docs</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-basics/"
+                          title="Discover what the Hugo - FixIt theme is all about and the core-concepts behind it."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Basics</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content/"
+                          title="Find out how to create and organize your content quickly and intuitively in FixIt theme."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Content</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-built-in-shortcodes/"
+                          title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Built-in Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-extended-shortcodes/"
+                          title="FixIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Extended Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/pwa-support/"
+                          title="Guide to setup PWA in FixIt."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> PWA Support</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content-encryption/"
+                          title="Find out how to encrypt content in FixIt theme."
+                          
+                        ><i class="fa-solid fa-lock fa-fw fa-sm" aria-hidden="true"></i> Content Encryption</a>
+                      </li></ul></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/friends/"
+                
+                
+              ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> Friends</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/about/"
+                
+                
+              ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> About</a></li><li class="menu-item delimiter"></li><li class="menu-item language">
+            <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <ul class="sub-menu"><li class="menu-item">
+                      <a href="/zh-cn/extended-shortcode-mapbox/" class="menu-link" title="简体中文">简体中文</a>
+                    </li></ul>
+          </li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="Search titles or contents ..." id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="FixIt"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="/fixit.min.svg" data-alt="/fixit.min.svg" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">FixIt</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="Search titles or contents ..." id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              Cancel
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Posts</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li
+              class="menu-item"
+            ><span class="nested-item">
+                  <a
+                    class="menu-link"
+                    href="/categories/documentation/"
+                    title="Theme Documentation"
+                    
+                  ><i class="fa-solid fa-book fa-fw fa-sm" aria-hidden="true"></i> Docs</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-basics/"
+                          title="Discover what the Hugo - FixIt theme is all about and the core-concepts behind it."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Basics</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content/"
+                          title="Find out how to create and organize your content quickly and intuitively in FixIt theme."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Content</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-built-in-shortcodes/"
+                          title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Built-in Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-extended-shortcodes/"
+                          title="FixIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Extended Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/pwa-support/"
+                          title="Guide to setup PWA in FixIt."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> PWA Support</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content-encryption/"
+                          title="Find out how to encrypt content in FixIt theme."
+                          
+                        ><i class="fa-solid fa-lock fa-fw fa-sm" aria-hidden="true"></i> Content Encryption</a>
+                      </li></ul></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/friends/"
+                  
+                  
+                ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> Friends</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/about/"
+                  
+                  
+                ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> About</a></li><li
+              class="menu-item text-center"
+            ><a
+                  class="menu-link"
+                  href="https://github.com/hugo-fixit/FixIt"
+                  title="GitHub"
+                  rel="noopener noreferrer" target="_blank"
+                ><i class='fa-brands fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language">
+            <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <select class="language-select" onchange="location = this.value;"><option value="/extended-shortcode-mapbox/" selected disabled>English</option><option value="/zh-cn/extended-shortcode-mapbox/">简体中文</option></select>
+          </li></ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container" data-page-style="normal"><aside class="toc" id="toc-auto"></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX">
+        <span>Extended Shortcode - mapbox</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><a href="https://lruihao.cn" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp" srcset="https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp, https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp 1.5x, https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp 2x" sizes="auto" data-title="Lruihao" data-alt="Lruihao" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;Lruihao</a></span>
+          <span class="post-category">included in <a href="/categories/documentation/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Documentation</a></span></div>
+      <div class="post-meta-line"><span title=2022-07-20&#32;12:22:15><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-20">2022-07-20</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 324 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> 2 minutes</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="Extended Shortcode - mapbox">
+              <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv">-</span>&nbsp;views
+            </span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="lazy" src="/extended-shortcode-mapbox/featured-image.jpg" srcset="/extended-shortcode-mapbox/featured-image.jpg, /extended-shortcode-mapbox/featured-image.jpg 1.5x, /extended-shortcode-mapbox/featured-image.jpg 2x" sizes="auto" data-title="The mapbox shortcode supports interactive maps in Hugo with Mapbox GL JS library." data-alt="/extended-shortcode-mapbox/featured-image.jpg" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></div><div class="content" id="content"><a href="https://github.com/hugo-fixit/FixIt/releases/tag/v0.2.0" rel="external nofollow noopener noreferrer" target="_blank"><img loading="lazy" src="/svg/version/0.2.0-new.en.min.svg" srcset="/svg/version/0.2.0-new.en.min.svg, /svg/version/0.2.0-new.en.min.svg 1.5x, /svg/version/0.2.0-new.en.min.svg 2x" sizes="auto" data-title="FixIt 0.2.0 | NEW" data-alt="FixIt 0.2.0 | NEW" class="version" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></a>
+<p>The <code>mapbox</code> shortcode supports interactive maps in Hugo with <a href="https://docs.mapbox.com/mapbox-gl-js"target="_blank" rel="external nofollow noopener noreferrer">Mapbox GL JS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> library.</p>
+<p><a href="https://docs.mapbox.com/mapbox-gl-js"target="_blank" rel="external nofollow noopener noreferrer">Mapbox GL JS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> is a JavaScript library that uses WebGL to render interactive maps from <a href="https://docs.mapbox.com/help/glossary/vector-tiles/"target="_blank" rel="external nofollow noopener noreferrer">vector tiles<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> and <a href="https://docs.mapbox.com/mapbox-gl-js/style-spec/"target="_blank" rel="external nofollow noopener noreferrer">Mapbox styles<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>
+<p>The <code>mapbox</code> shortcode has the following named parameters to use Mapbox GL JS:</p>
+<ul>
+<li>
+<p><strong>lng</strong> <em>[required]</em> (<strong>first</strong> positional parameter)</p>
+<p>Longitude of the inital centerpoint of the map, measured in degrees.</p>
+</li>
+<li>
+<p><strong>lat</strong> <em>[required]</em> (<strong>second</strong> positional parameter)</p>
+<p>Latitude of the inital centerpoint of the map, measured in degrees.</p>
+</li>
+<li>
+<p><strong>zoom</strong> <em>[optional]</em> (<strong>third</strong> positional parameter)</p>
+<p>The initial zoom level of the map, default value is <code>10</code>.</p>
+</li>
+<li>
+<p><strong>marked</strong> <em>[optional]</em> (<strong>fourth</strong> positional parameter)</p>
+<p>Whether to add a marker at the inital centerpoint of the map, default value is <code>true</code>.</p>
+</li>
+<li>
+<p><strong>light-style</strong> <em>[optional]</em> (<strong>fifth</strong> positional parameter)</p>
+<p>Style for the light theme, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>dark-style</strong> <em>[optional]</em> (<strong>sixth</strong> positional parameter)</p>
+<p>Style for the dark theme, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>navigation</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#navigationcontrol"target="_blank" rel="external nofollow noopener noreferrer">NavigationControl<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>geolocate</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#geolocatecontrol"target="_blank" rel="external nofollow noopener noreferrer">GeolocateControl<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>scale</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#scalecontrol"target="_blank" rel="external nofollow noopener noreferrer">ScaleControl<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>fullscreen</strong> <em>[optional]</em></p>
+<p>Whether to add <a href="https://docs.mapbox.com/mapbox-gl-js/api#fullscreencontrol"target="_blank" rel="external nofollow noopener noreferrer">FullscreenControl<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>, default value is the value set in the <a href="../theme-documentation-content#front-matter">front matter</a> or the <a href="../theme-documentation-basics#site-configuration">site configuration</a>.</p>
+</li>
+<li>
+<p><strong>width</strong> <em>[optional]</em></p>
+<p>Width of the map, default value is <code>100%</code>.</p>
+</li>
+<li>
+<p><strong>height</strong> <em>[optional]</em></p>
+<p>Height of the map, default value is <code>20rem</code>.</p>
+</li>
+</ul>
+<p>Example simple <code>mapbox</code> input:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">mapbox</span><span class="w"> </span><span class="mf">113.953277</span><span class="w"> </span><span class="mf">22.559102</span><span class="w"> </span><span class="mi">11</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Or
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">mapbox</span><span class="w"> </span><span class="nx">lng</span><span class="o">=</span><span class="mf">113.953277</span><span class="w"> </span><span class="nx">lat</span><span class="o">=</span><span class="mf">22.559102</span><span class="w"> </span><span class="nx">zoom</span><span class="o">=</span><span class="mi">11</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The rendered output looks like this:</p>
+<div class="mapbox" id="id-1" style="width: 100%; height: 20rem;"></div>
+<p>Example <code>mapbox</code> input with the custom style:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">mapbox</span><span class="w"> </span><span class="mf">-122.252</span><span class="w"> </span><span class="mf">37.453</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="k">false</span><span class="w"> </span><span class="s">&#34;mapbox://styles/mapbox/navigation-preview-day-v4&#34;</span><span class="w"> </span><span class="s">&#34;mapbox://styles/mapbox/navigation-preview-night-v4&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Or
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">mapbox</span><span class="w"> </span><span class="nx">lng</span><span class="o">=</span><span class="mf">-122.252</span><span class="w"> </span><span class="nx">lat</span><span class="o">=</span><span class="mf">37.453</span><span class="w"> </span><span class="nx">zoom</span><span class="o">=</span><span class="mi">10</span><span class="w"> </span><span class="nx">marked</span><span class="o">=</span><span class="k">false</span><span class="w"> </span><span class="nx">light</span><span class="err">-</span><span class="nx">style</span><span class="o">=</span><span class="s">&#34;mapbox://styles/mapbox/navigation-preview-day-v4&#34;</span><span class="w"> </span><span class="nx">dark</span><span class="err">-</span><span class="nx">style</span><span class="o">=</span><span class="s">&#34;mapbox://styles/mapbox/navigation-preview-night-v4&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The rendered output looks like this:</p>
+<div class="mapbox" id="id-2" style="width: 100%; height: 20rem;"></div></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title=2023-02-14&#32;23:12:19>Updated on 2023-02-14&nbsp;<a class="git-hash" href="https://github.com/hugo-fixit/docs/commit/98390778f355dddace2a7999209822fcb5a88522" rel="external nofollow noopener noreferrer" target="_blank" title="commit by Naglfar28(aozora00321@gmail.com) 98390778f355dddace2a7999209822fcb5a88522: refactor to FixIt"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>9839077</a></span>
+      </div><div class="post-info-license">
+          <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+        </div></div>
+    <div class="post-info-line">
+      <div class="post-info-md"><span><a href="/extended-shortcode-mapbox/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="https://github.com/hugo-fixit/docs/edit/main/content/posts/extended-shortcode-mapbox/index.en.md" title="Edit this page"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-edit">Edit this page</a></span></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://fixit.lruihao.cn/extended-shortcode-mapbox/" data-title="Extended Shortcode - mapbox" data-via="xxxx" data-hashtags="shortcodes"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://fixit.lruihao.cn/extended-shortcode-mapbox/" data-hashtag="shortcodes"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://fixit.lruihao.cn/extended-shortcode-mapbox/" data-title="Extended Shortcode - mapbox"><i class="fa-brands fa-hacker-news fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://fixit.lruihao.cn/extended-shortcode-mapbox/" data-title="Extended Shortcode - mapbox"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://fixit.lruihao.cn/extended-shortcode-mapbox/" data-title="Extended Shortcode - mapbox"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/shortcodes/' class="post-tag">shortcodes</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/extended-shortcode-echarts/" class="post-nav-item" rel="prev" title="Extended Shortcode - echarts"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Extended Shortcode - echarts</a>
+      <a href="/extended-shortcode-music/" class="post-nav-item" rel="next" title="Extended Shortcode - music">Extended Shortcode - music<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="giscus">
+          <script
+            src="https://giscus.app/client.js"
+            data-repo="hugo-fixit/FixIt"
+            data-repo-id="R_kgDOGihPtQ"
+            data-category="General"
+            data-category-id="DIC_kwDOGihPtc4CApHX"
+            data-mapping="title"
+            
+            data-theme="preferred_color_scheme"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async
+            defer
+          ></script>
+        </div>
+        <noscript>
+          Please enable JavaScript to view the comments powered by <a href="https://giscus.app/" rel="external nofollow noopener noreferrer">giscus</a>.
+        </noscript></div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18-RC"><img class="fixit-icon" src="/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://lruihao.cn"target="_blank" rel="external nofollow noopener noreferrer">Lruihao</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div><div class="footer-line statistics"><span class="site-time" title='Website running ...'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="run-times ms-1">Website running ...</span></span></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='Total visitors'><i class="fa-regular fa-user fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='Total visits'><i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><a href="https://github.com/hugo-fixit/FixIt" title="View source on GitHub"target="_blank" rel="external nofollow" class="github-corner right d-none-mobile"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #000;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning">Theme FixIt works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/mapbox-gl/mapbox-gl.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/blue/pace-theme-minimal.css"><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js" defer></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/mapbox-gl/mapbox-gl.js" defer></script><script src="/lib/mapbox-gl/mapbox-gl-language.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/cell-watermark/watermark.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":true,"expired":false,"giscus":{"darkTheme":"dark_dimmed","lightTheme":"light"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":{"darkStyle":"mapbox://styles/mapbox/dark-v10?optimize=true","fullscreen":true,"geolocate":true,"lat":22.559102,"lightStyle":"mapbox://styles/mapbox/light-v10?optimize=true","lng":113.953277,"marked":true,"navigation":true,"scale":true,"zoom":11},"id-2":{"darkStyle":"mapbox://styles/mapbox/navigation-preview-night-v4?optimize=true","fullscreen":true,"geolocate":true,"lat":37.453,"lightStyle":"mapbox://styles/mapbox/navigation-preview-day-v4?optimize=true","lng":-122.252,"marked":false,"navigation":true,"scale":true,"zoom":10}},"enablePWA":true,"mapbox":{"RTLTextPlugin":"https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js","accessToken":"pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"},"search":{"algoliaAppID":"YKOM6PKLUY","algoliaIndex":"index.en","algoliaSearchKey":"a44c110d3ac360be2c69cd79d34b77a8","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"siteTime":"2021-12-18T16:15:22+08:00","watermark":{"appendto":".wrapper\u003emain","colspacing":30,"content":"","enable":true,"fontfamily":"inherit","fontsize":0.85,"height":21,"opacity":0.0125,"rotate":15,"rowspacing":60,"width":150}};</script><script src="/js/theme.min.js" defer></script><script src="/js/custom.min.js" defer></script></body>
+</html>

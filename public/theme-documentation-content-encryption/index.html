@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Theme Documentation - Content Encryption - FixIt</title><meta name="author" content="Lruihao">
+<meta name="author-link" content="https://lruihao.cn">
+<meta name="description" content="Find out how to encrypt content in FixIt theme." /><meta name="keywords" content='Hugo Encryption, Content Encryption, FixIt' /><meta itemprop="name" content="Theme Documentation - Content Encryption">
+<meta itemprop="description" content="Find out how to encrypt content in FixIt theme."><meta itemprop="datePublished" content="2022-05-28T11:51:41+08:00" />
+<meta itemprop="dateModified" content="2023-02-14T23:12:19+08:00" />
+<meta itemprop="wordCount" content="546"><meta itemprop="image" content="https://fixit.lruihao.cn/theme-documentation-content-encryption/featured-image.png">
+<meta itemprop="keywords" content="Encryption," /><meta property="og:title" content="Theme Documentation - Content Encryption" />
+<meta property="og:description" content="Find out how to encrypt content in FixIt theme." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fixit.lruihao.cn/theme-documentation-content-encryption/" /><meta property="og:image" content="https://fixit.lruihao.cn/theme-documentation-content-encryption/featured-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-05-28T11:51:41+08:00" />
+<meta property="article:modified_time" content="2023-02-14T23:12:19+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fixit.lruihao.cn/theme-documentation-content-encryption/featured-image.png"/>
+<meta name="twitter:title" content="Theme Documentation - Content Encryption"/>
+<meta name="twitter:description" content="Find out how to encrypt content in FixIt theme."/>
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://fixit.lruihao.cn/theme-documentation-content-encryption/" /><link rel="prev" href="https://fixit.lruihao.cn/basic-markdown-syntax/" /><link rel="next" href="https://fixit.lruihao.cn/extended-shortcode-mermaid/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Theme Documentation - Content Encryption",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/fixit.lruihao.cn\/theme-documentation-content-encryption\/"
+    },"image": [{
+              "@type": "ImageObject",
+              "url": "https:\/\/fixit.lruihao.cn\/theme-documentation-content-encryption\/featured-image.png",
+              "width":  714 ,
+              "height":  336 
+            }],"genre": "posts","keywords": "Encryption","wordcount":  546 ,
+    "url": "https:\/\/fixit.lruihao.cn\/theme-documentation-content-encryption\/","datePublished": "2022-05-28T11:51:41+08:00","dateModified": "2023-02-14T23:12:19+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+      "@type": "Organization",
+      "name": "Lruihao","logo": {
+          "@type": "ImageObject",
+          "url": "https:\/\/fixit.lruihao.cn\/images\/avatar.png",
+          "width":  528 ,
+          "height":  560 
+        }},"author": {
+        "@type": "Person",
+        "name": "Lruihao"
+      },"description": "Find out how to encrypt content in FixIt theme."
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" data-github-corner="right">
+    <div class="header-title">
+      <a href="/" title="FixIt"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="FixIt" data-alt="FixIt" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">FixIt</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Posts</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item active has-children">
+              <a
+                class="menu-link"
+                href="/categories/documentation/"
+                title="Theme Documentation"
+                
+              ><i class="fa-solid fa-book fa-fw fa-sm" aria-hidden="true"></i> Docs</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-basics/"
+                          title="Discover what the Hugo - FixIt theme is all about and the core-concepts behind it."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Basics</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content/"
+                          title="Find out how to create and organize your content quickly and intuitively in FixIt theme."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Content</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-built-in-shortcodes/"
+                          title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Built-in Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-extended-shortcodes/"
+                          title="FixIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Extended Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/pwa-support/"
+                          title="Guide to setup PWA in FixIt."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> PWA Support</a>
+                      </li><li
+                        class="menu-item active"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content-encryption/"
+                          title="Find out how to encrypt content in FixIt theme."
+                          
+                        ><i class="fa-solid fa-lock fa-fw fa-sm" aria-hidden="true"></i> Content Encryption</a>
+                      </li></ul></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/friends/"
+                
+                
+              ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> Friends</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/about/"
+                
+                
+              ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> About</a></li><li class="menu-item delimiter"></li><li class="menu-item language">
+            <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <ul class="sub-menu"><li class="menu-item">
+                      <a href="/zh-cn/theme-documentation-content-encryption/" class="menu-link" title="简体中文">简体中文</a>
+                    </li></ul>
+          </li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="Search titles or contents ..." id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="FixIt"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="/fixit.min.svg" data-alt="/fixit.min.svg" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">FixIt</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="Search titles or contents ..." id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              Cancel
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Posts</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li
+              class="menu-item active"
+            ><span class="nested-item">
+                  <a
+                    class="menu-link"
+                    href="/categories/documentation/"
+                    title="Theme Documentation"
+                    
+                  ><i class="fa-solid fa-book fa-fw fa-sm" aria-hidden="true"></i> Docs</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-basics/"
+                          title="Discover what the Hugo - FixIt theme is all about and the core-concepts behind it."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Basics</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content/"
+                          title="Find out how to create and organize your content quickly and intuitively in FixIt theme."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Content</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-built-in-shortcodes/"
+                          title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Built-in Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-extended-shortcodes/"
+                          title="FixIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> Extended Shortcodes</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/pwa-support/"
+                          title="Guide to setup PWA in FixIt."
+                          
+                        ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> PWA Support</a>
+                      </li><li
+                        class="menu-item active"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/theme-documentation-content-encryption/"
+                          title="Find out how to encrypt content in FixIt theme."
+                          
+                        ><i class="fa-solid fa-lock fa-fw fa-sm" aria-hidden="true"></i> Content Encryption</a>
+                      </li></ul></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/friends/"
+                  
+                  
+                ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> Friends</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/about/"
+                  
+                  
+                ><i class="fa-solid fa-info-circle fa-fw fa-sm" aria-hidden="true"></i> About</a></li><li
+              class="menu-item text-center"
+            ><a
+                  class="menu-link"
+                  href="https://github.com/hugo-fixit/FixIt"
+                  title="GitHub"
+                  rel="noopener noreferrer" target="_blank"
+                ><i class='fa-brands fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li><li class="menu-item language">
+            <span role="button" aria-label="Select Language" title="Select Language">English<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <select class="language-select" onchange="location = this.value;"><option value="/theme-documentation-content-encryption/" selected disabled>English</option><option value="/zh-cn/theme-documentation-content-encryption/">简体中文</option></select>
+          </li></ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container" data-page-style="normal"><aside class="toc" id="toc-auto"><h2 class="toc-title d-none">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content d-none" id="toc-content-auto"></div></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX">
+        <span>Theme Documentation - Content Encryption</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><a href="https://lruihao.cn" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp" srcset="https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp, https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp 1.5x, https://www.gravatar.com/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp 2x" sizes="auto" data-title="Lruihao" data-alt="Lruihao" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;Lruihao</a></span>
+          <span class="post-category">included in <a href="/categories/documentation/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Documentation</a></span></div>
+      <div class="post-meta-line"><span title=2022-05-28&#32;11:51:41><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-05-28">2022-05-28</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 546 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> 3 minutes</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="Theme Documentation - Content Encryption">
+              <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv">-</span>&nbsp;views
+            </span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="lazy" src="/theme-documentation-content-encryption/featured-image.png" srcset="/theme-documentation-content-encryption/featured-image.png, /theme-documentation-content-encryption/featured-image.png 1.5x, /theme-documentation-content-encryption/featured-image.png 2x" sizes="auto" data-title="Find out how to encrypt content in FixIt theme." data-alt="/theme-documentation-content-encryption/featured-image.png" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></div><div class="details toc d-none" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#page-encryption">Page Encryption</a>
+      <ul>
+        <li><a href="#frontmatter">Frontmatter</a></li>
+        <li><a href="#advanced-use">Advanced use</a></li>
+      </ul>
+    </li>
+    <li><a href="#partial-encryption">Partial Encryption</a></li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#fixit-decryptor-api">Class FixItDecryptor API</a>
+      <ul>
+        <li><a href="#new-fixitdecryptoroptions">new FixItDecryptor(options)</a>
+          <ul>
+            <li><a href="#options">Options</a></li>
+          </ul>
+        </li>
+        <li><a href="#methods">Methods</a>
+          <ul>
+            <li><a href="#init">init()</a></li>
+            <li><a href="#initshortcodes">initShortcodes()</a></li>
+            <li><a href="#validatecache">validateCache()</a></li>
+            <li><a href="#addeventlistenerevent-listener">addEventListener(event, listener)</a></li>
+            <li><a href="#removeeventlistenerevent-listener">removeEventListener(event, listener)</a></li>
+          </ul>
+        </li>
+        <li><a href="#events">Events</a>
+          <ul>
+            <li><a href="#decrypted">decrypted</a></li>
+            <li><a href="#reset">reset</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content" data-password="a01610228fe998f515a72dd730294d87" data-content="PHA&#43;R02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481mluZCBvdXQgaG93IHRvIGVuY3J5cHQgY29udGVudCBpbiBGaXhJdCB0aGVtZS48L3A&#43;CjxoMiBpZD0icGFnZS1lbmNyeXB0aW9uIj5QYWdlIEVuY3J5cHRpb248L2gyPgo8aDMgaWQ9ImZyb250bWF0dGVyIj5Gcm9udG1hdHRlcjwvaDM&#43;CjxwPlRoZSBGaXhJdCB0aGVtZSBwcm92aWRlcyB0d28gZnJvbnRtYXR0ZXJzIGZvciBwYWdlIGVuY3J5cHRpb24uPC9wPgo8dWw&#43;CjxsaT48c3Ryb25nPnBhc3N3b3JkPC9zdHJvbmc&#43;OiA8ZW0&#43;W3JlcXVpcmVkXTwvZW0&#43;IHBhc3N3b3JkIG9mIGVuY3J5cHRlZCBwYWdlIGNvbnRlbnQ8L2xpPgo8bGk&#43;PHN0cm9uZz5tZXNzYWdlPC9zdHJvbmc&#43;OiA8ZW0&#43;W29wdGlvbmFsXTwvZW0&#43;IGVuY3J5cHRpb24gcHJvbXB0PC9saT4KPC91bD4KPHA&#43;Rm9yIGV4YW1wbGUsIHRoZSBmcm9udG1hdHRlcnMgaW4gdGhpcyBhcnRpY2xlIGFyZSBhcyBmb2xsb3dzOjwvcD4KPGRpdiBjbGFzcz0iaGlnaGxpZ2h0Ij48ZGl2IGNsYXNzPSJjaHJvbWEiPgo8dGFibGUgY2xhc3M9ImxudGFibGUiPjx0cj48dGQgY2xhc3M9ImxudGQiPgo8cHJlIHRhYmluZGV4PSIwIiBjbGFzcz0iY2hyb21hIj48Y29kZT48c3BhbiBjbGFzcz0ibG50Ij4gMQo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDIKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPiAzCjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4gNAo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDUKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPiA2Cjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4gNwo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDgKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPiA5Cjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4xMAo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;MTEKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPjEyCjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4xMwo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;MTQKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPjE1Cjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4xNgo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;MTcKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPjE4Cjwvc3Bhbj48L2NvZGU&#43;PC9wcmU&#43;PC90ZD4KPHRkIGNsYXNzPSJsbnRkIj4KPHByZSB0YWJpbmRleD0iMCIgY2xhc3M9ImNocm9tYSI&#43;PGNvZGUgY2xhc3M9Imxhbmd1YWdlLXlhbWwiIGRhdGEtbGFuZz0ieWFtbCI&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;PHNwYW4gY2xhc3M9Im5uIj4tLS08L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0idyI&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJudCI&#43;dGl0bGU8L3NwYW4&#43;PHNwYW4gY2xhc3M9InAiPjo8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9InMyIj4mIzM0O1RoZW1lIERvY3VtZW50YXRpb24gLSBDb250ZW50IEVuY3J5cHRpb24mIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5kYXRlPC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJsZCI&#43;MjAyMi0wNS0yOFQxMTo1MTo0MTwvc3Bhbj48c3BhbiBjbGFzcz0ibSI&#43;KzA4PC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJtIj4wMDwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5hdXRob3I8L3NwYW4&#43;PHNwYW4gY2xhc3M9InAiPjo8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9InMyIj4mIzM0O0xydWloYW8mIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5hdXRob3JMaW5rPC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJzMiI&#43;JiMzNDtodHRwczovL2xydWloYW8uY24mIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5kZXNjcmlwdGlvbjwvc3Bhbj48c3BhbiBjbGFzcz0icCI&#43;Ojwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iczIiPiYjMzQ7RmluZCBvdXQgaG93IHRvIGVuY3J5cHQgY29udGVudCBpbiBGaXhJdCB0aGVtZS4mIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5wYXNzd29yZDwvc3Bhbj48c3BhbiBjbGFzcz0icCI&#43;Ojwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0ibSI&#43;MTIxMjwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5tZXNzYWdlPC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJzMiI&#43;JiMzNDtQYXNzd29yZCBpcyAxMjEyJiMzNDs8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im50Ij5yZXNvdXJjZXM8L3NwYW4&#43;PHNwYW4gY2xhc3M9InAiPjo8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0idyI&#43;PC9zcGFuPi0gPHNwYW4gY2xhc3M9Im50Ij5uYW1lPC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJzMiI&#43;JiMzNDtmZWF0dXJlZC1pbWFnZSYjMzQ7PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4KPC9zcGFuPjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;PHNwYW4gY2xhc3M9InciPiAgPC9zcGFuPjxzcGFuIGNsYXNzPSJudCI&#43;c3JjPC9zcGFuPjxzcGFuIGNsYXNzPSJwIj46PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJzMiI&#43;JiMzNDtmZWF0dXJlZC1pbWFnZS5wbmcmIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij4KPC9zcGFuPjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;PHNwYW4gY2xhc3M9InciPjwvc3Bhbj48c3BhbiBjbGFzcz0ibnQiPnRhZ3M8L3NwYW4&#43;PHNwYW4gY2xhc3M9InAiPjo8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0idyI&#43;PC9zcGFuPi0gPHNwYW4gY2xhc3M9ImwiPkVuY3J5cHRpb248L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0idyI&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJudCI&#43;Y2F0ZWdvcmllczwvc3Bhbj48c3BhbiBjbGFzcz0icCI&#43;Ojwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;LSA8c3BhbiBjbGFzcz0ibCI&#43;ZG9jdW1lbnRhdGlvbjwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJ3Ij48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im5uIj4tLS08L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPgo8L3NwYW4&#43;PC9zcGFuPjwvc3Bhbj48L2NvZGU&#43;PC9wcmU&#43;PC90ZD48L3RyPjwvdGFibGU&#43;CjwvZGl2Pgo8L2Rpdj48ZGl2IGNsYXNzPSJkZXRhaWxzIGFkbW9uaXRpb24gaW5mbyBvcGVuIj4KICAgIDxkaXYgY2xhc3M9ImRldGFpbHMtc3VtbWFyeSBhZG1vbml0aW9uLXRpdGxlIj4KICAgICAgPGkgY2xhc3M9Imljb24gZmEtc29saWQgZmEtaW5mby1jaXJjbGUgZmEtZnciIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k&#43;SW5mbzxpIGNsYXNzPSJkZXRhaWxzLWljb24gZmEtc29saWQgZmEtYW5nbGUtcmlnaHQgZmEtZnciIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k&#43;CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImRldGFpbHMtY29udGVudCI&#43;CiAgICAgIDxkaXYgY2xhc3M9ImFkbW9uaXRpb24tY29udGVudCI&#43;PG9sPgo8bGk&#43;QWZ0ZXIgZW50ZXJpbmcgdGhlIGNvcnJlY3QgcGFzc3dvcmQgZWFjaCB0aW1lLCB0aGUgcGFzc3dvcmQgaGFzaCB2YWx1ZSB3aWxsIGJlIGNhY2hlZCBsb2NhbGx5IGJ5IHRoZSB1c2VyLCBhbmQgdGhlIHBhZ2VzIHdpbGwgYmUgdW5sb2NrZWQgYXV0b21hdGljYWxseSB3aGVuIGFjY2Vzc2VkIGFnYWluIHdpdGhpbiBvbmUgZGF5PC9saT4KPGxpPkEgJmxkcXVvO0VuY3J5cHQgYWdhaW4mcmRxdW87IGJ1dHRvbiBpcyBwcm92aWRlZCBhdCB0aGUgZW5kIG9mIHRoZSBhcnRpY2xlLiBDbGljayBpdCB0byBpbW1lZGlhdGVseSBmb3JnZXQgdGhlIHBhc3N3b3JkIGFuZCByZSBlbmNyeXB0IHRoZSBjb250ZW50PC9saT4KPGxpPkVuY3J5cHRlZCBwYWdlcyBoYXZlIGJlZW4gaGlkZGVuIGZyb20gc2VhcmNoPC9saT4KPGxpPlRoZSBtYXJrZG93biBvdXRwdXQgb2YgZW5jcnlwdGVkIHBhZ2VzIGhhcyBiZWVuIGRpc2FibGVkLiBUbyBwcmV2ZW50IHBhc3N3b3JkIGRpc2Nsb3N1cmUsIDxzdHJvbmc&#43;ZG8gbm90IG1ha2UgZW5jcnlwdGVkIHBhZ2VzIHB1YmxpYyBpbiBhbnkgZm9ybTwvc3Ryb25nPjwvbGk&#43;Cjwvb2w&#43;CjwvZGl2PgogICAgPC9kaXY&#43;CiAgPC9kaXY&#43;CjxoMyBpZD0iYWR2YW5jZWQtdXNlIj5BZHZhbmNlZCB1c2U8L2gzPgo8cD5GaXhJdCBEY3J5cHRvciBoYXMgdHdvIGxpZmVjeWNsZSBob29rcywgc2VlIDxhIGhyZWY9IiNmaXhpdC1kZWNyeXB0b3ItYXBpIj5DbGFzcyBGaXhJdERlY3J5cHRvciBBUEk8L2E&#43;PC9wPgo8cD5Gb3IgZXhhbXBsZSwgYWZ0ZXIgdW5sb2NraW5nIHRoZSBhcnRpY2xlLCBvdXRwdXQgdGhlIHRleHQ6PC9wPgo8ZGl2IGNsYXNzPSJoaWdobGlnaHQiPjxkaXYgY2xhc3M9ImNocm9tYSI&#43;Cjx0YWJsZSBjbGFzcz0ibG50YWJsZSI&#43;PHRyPjx0ZCBjbGFzcz0ibG50ZCI&#43;CjxwcmUgdGFiaW5kZXg9IjAiIGNsYXNzPSJjaHJvbWEiPjxjb2RlPjxzcGFuIGNsYXNzPSJsbnQiPiAxCjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4gMgo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDMKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPiA0Cjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4gNQo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDYKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPiA3Cjwvc3Bhbj48c3BhbiBjbGFzcz0ibG50Ij4gOAo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;IDkKPC9zcGFuPjxzcGFuIGNsYXNzPSJsbnQiPjEwCjwvc3Bhbj48L2NvZGU&#43;PC9wcmU&#43;PC90ZD4KPHRkIGNsYXNzPSJsbnRkIj4KPHByZSB0YWJpbmRleD0iMCIgY2xhc3M9ImNocm9tYSI&#43;PGNvZGUgY2xhc3M9Imxhbmd1YWdlLWdvLWh0bWwtdGVtcGxhdGUiIGRhdGEtbGFuZz0iZ28taHRtbC10ZW1wbGF0ZSI&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;PHNwYW4gY2xhc3M9ImNwIj57ezwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4mbHQ7PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;c2NyaXB0PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPiZndDs8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImNwIj59fTwvc3Bhbj4KPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCYjMzk7RE9NQ29udGVudExvYWRlZCYjMzk7LCAoKSA9Jmd0OyB7Cjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;ICBmaXhpdC50aGVtZS5kZWNyeXB0b3IuYWRkRXZlbnRMaXN0ZW5lcigmIzM5O2RlY3J5cHRlZCYjMzk7LCBmdW5jdGlvbigpIHsKPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj4gICAgY29uc29sZS5sb2coJiMzOTthZnRlciBwYXNzd29yZCBkZWNyeXB0aW9uJiMzOTspCjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;ICB9KQo8L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPiAgaWYgKHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbShgZml4aXQtZGVjcnlwdG9yLyMke2xvY2F0aW9uLnBhdGhuYW1lfWApKSB7Cjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;ICAgIGNvbnNvbGUubG9nKCYjMzk7YWZ0ZXIgYXV0b21hdGljIGRlY3J5cHRpb24mIzM5OykKPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj4gIH0KPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj59KTsKPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0iY3AiPnt7PC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPiZsdDs8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;Lzwvc3Bhbj48c3BhbiBjbGFzcz0ibngiPnNjcmlwdDwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4mZ3Q7PC9zcGFuPjxzcGFuIGNsYXNzPSJjcCI&#43;fX08L3NwYW4&#43;Cjwvc3Bhbj48L3NwYW4&#43;PC9jb2RlPjwvcHJlPjwvdGQ&#43;PC90cj48L3RhYmxlPgo8L2Rpdj4KPC9kaXY&#43;PHA&#43;WW91IGNhbiBzZWUgdGhlIG91dHB1dCBpbiB0aGUgY29uc29sZSBvZiB0aGUgZGV2ZWxvcGVyIHRvb2wuPC9wPgoKPGgyIGlkPSJwYXJ0aWFsLWVuY3J5cHRpb24iPlBhcnRpYWwgRW5jcnlwdGlvbjwvaDI&#43;CjxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9odWdvLWZpeGl0L0ZpeEl0L3JlbGVhc2VzL3RhZy92MC4yLjE1IiByZWw9ImV4dGVybmFsIG5vZm9sbG93IG5vb3BlbmVyIG5vcmVmZXJyZXIiIHRhcmdldD0iX2JsYW5rIj48aW1nIGxvYWRpbmc9ImxhenkiIHNyYz0iL3N2Zy92ZXJzaW9uLzAuMi4xNS1uZXcuZW4ubWluLnN2ZyIgc3Jjc2V0PSIvc3ZnL3ZlcnNpb24vMC4yLjE1LW5ldy5lbi5taW4uc3ZnLCAvc3ZnL3ZlcnNpb24vMC4yLjE1LW5ldy5lbi5taW4uc3ZnIDEuNXgsIC9zdmcvdmVyc2lvbi8wLjIuMTUtbmV3LmVuLm1pbi5zdmcgMngiIHNpemVzPSJhdXRvIiBkYXRhLXRpdGxlPSJGaXhJdCAwLjIuMTUgfCBORVciIGRhdGEtYWx0PSJGaXhJdCAwLjIuMTUgfCBORVciIGNsYXNzPSJ2ZXJzaW9uIiBzdHlsZT0iYmFja2dyb3VuZDogdXJsKC9zdmcvbG9hZGluZy5taW4uc3ZnKSBuby1yZXBlYXQgY2VudGVyOyIgb25sb2FkPSJ0aGlzLnRpdGxlPXRoaXMuZGF0YXNldC50aXRsZTt0aGlzLmFsdD10aGlzLmRhdGFzZXQuYWx0O2Zvcihjb25zdCBhIG9mIFsnc3R5bGUnLCdkYXRhLXRpdGxlJywnZGF0YS1hbHQnLCdvbmVycm9yJywnb25sb2FkJ10pe3RoaXMucmVtb3ZlQXR0cmlidXRlKGEpO310aGlzLmRhdGFzZXQubGF6eWxvYWRlZD0nJzsiIG9uZXJyb3I9InRoaXMudGl0bGU9dGhpcy5kYXRhc2V0LnRpdGxlO3RoaXMuYWx0PXRoaXMuZGF0YXNldC5hbHQ7Zm9yKGNvbnN0IGEgb2YgWydzdHlsZScsJ2RhdGEtdGl0bGUnLCdkYXRhLWFsdCcsJ29uZXJyb3InLCdvbmxvYWQnXSl7dGhpcy5yZW1vdmVBdHRyaWJ1dGUoYSk7fSIvPjwvYT4KPHA&#43;WW91IGNhbiB1c2UgPGNvZGU&#43;Zml4aXQtZW5jcnlwdG9yPC9jb2RlPiBzaG9ydGNvZGUgdG8gZW5jcnlwdCBwYXJ0aWFsIGNvbnRlbnQuPC9wPgo8cD5UaGUgPGNvZGU&#43;Zml4aXQtZW5jcnlwdG9yPC9jb2RlPiBzaG9ydGNvZGUgaGFzIHRoZSBmb2xsb3dpbmcgbmFtZWQgcGFyYW1ldGVyczo8L3A&#43;Cjx1bD4KPGxpPgo8cD48c3Ryb25nPnBhc3N3b3JkPC9zdHJvbmc&#43;IDxlbT5bcmVxdWlyZWRdPC9lbT4gKDxzdHJvbmc&#43;Zmlyc3Q8L3N0cm9uZz4gcG9zaXRpb25hbCBwYXJhbWV0ZXIpPC9wPgo8cD5QYXNzd29yZCBvZiB0aGUgcGFydGlhbCBlbmNyeXB0ZWQgY29udGVudC48L3A&#43;CjwvbGk&#43;CjxsaT4KPHA&#43;PHN0cm9uZz5tZXNzYWdlPC9zdHJvbmc&#43;IDxlbT5bb3B0aW9uYWxdPC9lbT4gKDxzdHJvbmc&#43;c2Vjb25kPC9zdHJvbmc&#43;IHBvc2l0aW9uYWwgcGFyYW1ldGVyKTwvcD4KPHA&#43;UGxhY2Vob2xkZXIgb2YgdGhlIGRlY3J5cHRvciBpbnB1dC48L3A&#43;CjwvbGk&#43;CjwvdWw&#43;CjxwPkV4YW1wbGUgPGNvZGU&#43;Zml4aXQtZW5jcnlwdG9yPC9jb2RlPiBpbnB1dDo8L3A&#43;CjxkaXYgY2xhc3M9ImhpZ2hsaWdodCI&#43;PGRpdiBjbGFzcz0iY2hyb21hIj4KPHRhYmxlIGNsYXNzPSJsbnRhYmxlIj48dHI&#43;PHRkIGNsYXNzPSJsbnRkIj4KPHByZSB0YWJpbmRleD0iMCIgY2xhc3M9ImNocm9tYSI&#43;PGNvZGU&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;MQo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;Mgo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;Mwo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;NAo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;NQo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;Ngo8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxudCI&#43;Nwo8L3NwYW4&#43;PC9jb2RlPjwvcHJlPjwvdGQ&#43;Cjx0ZCBjbGFzcz0ibG50ZCI&#43;CjxwcmUgdGFiaW5kZXg9IjAiIGNsYXNzPSJjaHJvbWEiPjxjb2RlIGNsYXNzPSJsYW5ndWFnZS1nby1odG1sLXRlbXBsYXRlIiBkYXRhLWxhbmc9ImdvLWh0bWwtdGVtcGxhdGUiPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJjcCI&#43;e3s8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;JTwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0ibngiPmZpeGl0PC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPi08L3NwYW4&#43;PHNwYW4gY2xhc3M9Im54Ij5lbmNyeXB0b3I8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9InMiPiYjMzQ7MTIxMiYjMzQ7PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJzIj4mIzM0O1Bhc3N3b3JkIGlzIDEyMTImIzM0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4lPC9zcGFuPjxzcGFuIGNsYXNzPSJjcCI&#43;fX08L3NwYW4&#43;Cjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;VGhlIGBmaXhpdC1lbmNyeXB0b3JgIHNob3J0Y29kZSB3YXMgc3VwcG9ydGVkIGluIHZlcnNpb24gPHNwYW4gY2xhc3M9ImNwIj57ezwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4mbHQ7PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;dmVyc2lvbjwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0ibWYiPjAuMjwvc3Bhbj48c3BhbiBjbGFzcz0ibmEiPi48L3NwYW4&#43;PHNwYW4gY2xhc3M9Im1pIj4xNTwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4mZ3Q7PC9zcGFuPjxzcGFuIGNsYXNzPSJjcCI&#43;fX08L3NwYW4&#43;Lgo8L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPjxzcGFuIGNsYXNzPSJjcCI&#43;e3s8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;JTwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4vPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;Zml4aXQ8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;LTwvc3Bhbj48c3BhbiBjbGFzcz0ibngiPmVuY3J5cHRvcjwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4lPC9zcGFuPjxzcGFuIGNsYXNzPSJjcCI&#43;fX08L3NwYW4&#43;Cjwvc3Bhbj48L3NwYW4&#43;PHNwYW4gY2xhc3M9ImxpbmUiPjxzcGFuIGNsYXNzPSJjbCI&#43;T3IKPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0iY3AiPnt7PC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPiU8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9Im54Ij5maXhpdDwvc3Bhbj48c3BhbiBjbGFzcz0iZXJyIj4tPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;ZW5jcnlwdG9yPC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;cGFzc3dvcmQ8L3NwYW4&#43;PHNwYW4gY2xhc3M9Im8iPj08L3NwYW4&#43;PHNwYW4gY2xhc3M9InMiPiYjMzQ7MTIxMiYjMzQ7PC9zcGFuPjxzcGFuIGNsYXNzPSJ3Ij4gPC9zcGFuPjxzcGFuIGNsYXNzPSJueCI&#43;bWVzc2FnZTwvc3Bhbj48c3BhbiBjbGFzcz0ibyI&#43;PTwvc3Bhbj48c3BhbiBjbGFzcz0icyI&#43;JiMzNDtQYXNzd29yZCBpcyAxMjEyJiMzNDs8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;JTwvc3Bhbj48c3BhbiBjbGFzcz0iY3AiPn19PC9zcGFuPgo8L3NwYW4&#43;PC9zcGFuPjxzcGFuIGNsYXNzPSJsaW5lIj48c3BhbiBjbGFzcz0iY2wiPlRoZSBgZml4aXQtZW5jcnlwdG9yYCBzaG9ydGNvZGUgd2FzIHN1cHBvcnRlZCBpbiB2ZXJzaW9uIDxzcGFuIGNsYXNzPSJjcCI&#43;e3s8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;Jmx0Ozwvc3Bhbj48c3BhbiBjbGFzcz0idyI&#43;IDwvc3Bhbj48c3BhbiBjbGFzcz0ibngiPnZlcnNpb248L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9Im1mIj4wLjI8L3NwYW4&#43;PHNwYW4gY2xhc3M9Im5hIj4uPC9zcGFuPjxzcGFuIGNsYXNzPSJtaSI&#43;MTU8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;Jmd0Ozwvc3Bhbj48c3BhbiBjbGFzcz0iY3AiPn19PC9zcGFuPi4KPC9zcGFuPjwvc3Bhbj48c3BhbiBjbGFzcz0ibGluZSI&#43;PHNwYW4gY2xhc3M9ImNsIj48c3BhbiBjbGFzcz0iY3AiPnt7PC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPiU8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;Lzwvc3Bhbj48c3BhbiBjbGFzcz0ibngiPmZpeGl0PC9zcGFuPjxzcGFuIGNsYXNzPSJlcnIiPi08L3NwYW4&#43;PHNwYW4gY2xhc3M9Im54Ij5lbmNyeXB0b3I8L3NwYW4&#43;PHNwYW4gY2xhc3M9InciPiA8L3NwYW4&#43;PHNwYW4gY2xhc3M9ImVyciI&#43;JTwvc3Bhbj48c3BhbiBjbGFzcz0iY3AiPn19PC9zcGFuPgo8L3NwYW4&#43;PC9zcGFuPjwvY29kZT48L3ByZT48L3RkPjwvdHI&#43;PC90YWJsZT4KPC9kaXY&#43;CjwvZGl2PjxwPlRoZSByZW5kZXJlZCBvdXRwdXQgbG9va3MgbGlrZSB0aGlzOjwvcD4KPGZpeGl0LWVuY3J5cHRvciBjbGFzcz0iZml4aXQtZW5jcnlwdG9yLXNob3J0Y29kZSI&#43;CiAgICA8ZGl2IGNsYXNzPSJmaXhpdC1kZWNyeXB0b3ItY29udGFpbmVyIj4KICAgICAgPGxhYmVsIHRpdGxlPSdQYXNzd29yZCc&#43;CiAgICAgICAgPGlucHV0IHR5cGU9InBhc3N3b3JkIiBjbGFzcz0iZml4aXQtZGVjcnlwdG9yLWlucHV0IiBwbGFjZWhvbGRlcj0i8J&#43;UkSBQYXNzd29yZCBpcyAxMjEyIiAvPgogICAgICA8L2xhYmVsPgogICAgPC9kaXY&#43;CiAgICA8ZGl2IGRhdGEtcGFzc3dvcmQ9ImEwMTYxMDIyOGZlOTk4ZjUxNWE3MmRkNzMwMjk0ZDg3IiBkYXRhLWNvbnRlbnQ9IlZHaGxJMDJmOWVkMmE4ZDFlMDhkOGY3NGY1MzAzZTllYjkzNjM3ZDQ3ZjgyYWI2ZjFjMTU4NzFjZjhkZDA0ODFEeGpiMlJsUG1acGVHbDBMV1Z1WTNKNWNIUnZjand2WTI5a1pUNGdjMmh2Y25SamIyUmxJSGRoY3lCemRYQndiM0owWldRZ2FXNGdkbVZ5YzJsdmJpQThZU0JvY21WbVBTSm9kSFJ3Y3pvdkwyZHBkR2gxWWk1amIyMHZhSFZuYnkxbWFYaHBkQzlHYVhoSmRDOXlaV3hsWVhObGN5OTBZV2N2ZGpBdU1pNHhOU0lnY21Wc1BTSmxlSFJsY201aGJDQnViMlp2Ykd4dmR5QnViMjl3Wlc1bGNpQnViM0psWm1WeWNtVnlJaUIwWVhKblpYUTlJbDlpYkdGdWF5SSYjNDM7UEdsdFp5QnNiMkZrYVc1blBTSnNZWHA1SWlCemNtTTlJaTl6ZG1jdmRtVnljMmx2Ymk4d0xqSXVNVFV0Ym1WM0xtVnVMbTFwYmk1emRtY2lJSE55WTNObGREMGlMM04yWnk5MlpYSnphVzl1THpBdU1pNHhOUzF1WlhjdVpXNHViV2x1TG5OMlp5d2dMM04yWnk5MlpYSnphVzl1THpBdU1pNHhOUzF1WlhjdVpXNHViV2x1TG5OMlp5QXhMalY0TENBdmMzWm5MM1psY25OcGIyNHZNQzR5TGpFMUxXNWxkeTVsYmk1dGFXNHVjM1puSURKNElpQnphWHBsY3owaVlYVjBieUlnWkdGMFlTMTBhWFJzWlQwaVJtbDRTWFFnTUM0eUxqRTFJSHdnVGtWWElpQmtZWFJoTFdGc2REMGlSbWw0U1hRZ01DNHlMakUxSUh3Z1RrVlhJaUJqYkdGemN6MGlkbVZ5YzJsdmJpSWdjM1I1YkdVOUltSmhZMnRuY205MWJtUTZJSFZ5YkNndmMzWm5MMnh2WVdScGJtY3ViV2x1TG5OMlp5a2dibTh0Y21Wd1pXRjBJR05sYm5SbGNqc2lJRzl1Ykc5aFpEMGlkR2hwY3k1MGFYUnNaVDEwYUdsekxtUmhkR0Z6WlhRdWRHbDBiR1U3ZEdocGN5NWhiSFE5ZEdocGN5NWtZWFJoYzJWMExtRnNkRHRtYjNJb1kyOXVjM1FnWVNCdlppQmJKM04wZVd4bEp5d25aR0YwWVMxMGFYUnNaU2NzSjJSaGRHRXRZV3gwSnl3bmIyNWxjbkp2Y2ljc0oyOXViRzloWkNkZEtYdDBhR2x6TG5KbGJXOTJaVUYwZEhKcFluVjBaU2hoS1R0OWRHaHBjeTVrWVhSaGMyVjBMbXhoZW5sc2IyRmtaV1E5SnljN0lpQnZibVZ5Y205eVBTSjBhR2x6TG5ScGRHeGxQWFJvYVhNdVpHRjBZWE5sZEM1MGFYUnNaVHQwYUdsekxtRnNkRDEwYUdsekxtUmhkR0Z6WlhRdVlXeDBPMlp2Y2loamIyNXpkQ0JoSUc5bUlGc25jM1I1YkdVbkxDZGtZWFJoTFhScGRHeGxKeXduWkdGMFlTMWhiSFFuTENkdmJtVnljbTl5Snl3bmIyNXNiMkZrSjEwcGUzUm9hWE11Y21WdGIzWmxRWFIwY21saWRYUmxLR0VwTzMwaUx6NDhMMkUmIzQzO0xnPT0iPjwvZGl2PgogIDwvZml4aXQtZW5jcnlwdG9yPgo8aDIgaWQ9InN1bW1hcnkiPlN1bW1hcnk8L2gyPgo8cD5Db21wYXJlZCB3aXRoIGVuY3J5cHRpbmcgY29udGVudCB0aHJvdWdoIHNjcmlwdCBiYXRjaCBwcm9jZXNzaW5nIHN1Y2ggYXMgZ29sYW5nL3B5dGhvbi9qYXZhc2NyaXB0LCBGaXhJdCB0aGVtZSBidWlsdC1pbiBlbmNyeXB0aW9uIGhhcyB0aGUgZm9sbG93aW5nIGFkdmFudGFnZXMgYW5kIGRpc2FkdmFudGFnZXM6PC9wPgo8dWw&#43;CjxsaT48c3Ryb25nPkFkdmFudGFnZXM8L3N0cm9uZz46IEhpZ2ggdXNhYmlsaXR5LCBvdXQgb2YgdGhlIGJveCwgd2l0aG91dCBmdXJ0aGVyIGJhdGNoIHByb2Nlc3Npbmc8L2xpPgo8bGk&#43;PHN0cm9uZz5EaXNhZHZhbnRhZ2VzPC9zdHJvbmc&#43;OiBMb3cgc2VjdXJpdHksIHRoZSBlbmNyeXB0aW9uIGFsZ29yaXRobSBpcyBsaW1pdGVkIGJ5IHRoZSA8Y29kZT5nby1odG1sLXRlbXBsYXRlPC9jb2RlPiBzeW50YXg8L2xpPgo8L3VsPgo8YmxvY2txdW90ZT4KPHA&#43;JmxkcXVvO1RoZSBzaW1wbGVzdCBwYXNzd29yZCBpcyBlbm91Z2ggdG8gcHJldmVudCA5MCUgb2YgcGVvcGxlISZyZHF1bzs8L3A&#43;CjxwPlRoZXJlIGlzIG5vIHRyaXZpYWwgbWF0dGVyIGFib3V0IHByaXZhY3kuIFBsZWFzZSBkbyBub3QgdXBsb2FkIGltcG9ydGFudCBhbmQgcHJpdmF0ZSBjb250ZW50cywgYW5kIGtlZXAgdGhlbSBwcm9wZXJseSE8L3A&#43;CjwvYmxvY2txdW90ZT4KPGhyPgo8aDIgaWQ9ImZpeGl0LWRlY3J5cHRvci1hcGkiPkNsYXNzIEZpeEl0RGVjcnlwdG9yIEFQSTwvaDI&#43;CjxwPkZpeEl0IGRlY3J5cHRvciBmb3IgZW5jcnlwdGVkIHBhZ2VzPC9wPgo8aDMgaWQ9Im5ldy1maXhpdGRlY3J5cHRvcm9wdGlvbnMiPm5ldyBGaXhJdERlY3J5cHRvcihvcHRpb25zKTwvaDM&#43;Cjx0YWJsZT4KPHRoZWFkPgo8dHI&#43;Cjx0aD5OYW1lPC90aD4KPHRoPlR5cGU8L3RoPgo8dGg&#43;RGVzY3JpcHRpb248L3RoPgo8L3RyPgo8L3RoZWFkPgo8dGJvZHk&#43;Cjx0cj4KPHRkPm9wdGlvbnM8L3RkPgo8dGQ&#43;T2JqZWN0PC90ZD4KPHRkPlRoZSBvcHRpb25zIG9mIEZpeEl0RGVjcnlwdG9y77yIPGEgaHJlZj0iI29wdGlvbnMiPk9wdGlvbnM8L2E&#43;77yJPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPGg0IGlkPSJvcHRpb25zIj5PcHRpb25zPC9oND4KPHRhYmxlPgo8dGhlYWQ&#43;Cjx0cj4KPHRoPk5hbWU8L3RoPgo8dGg&#43;VHlwZTwvdGg&#43;Cjx0aD5BdHRyaWJ1dGVzPC90aD4KPHRoPkRlZmF1bHQ8L3RoPgo8dGg&#43;RGVzY3JpcHRpb248L3RoPgo8L3RyPgo8L3RoZWFkPgo8dGJvZHk&#43;Cjx0cj4KPHRkPmRlY3J5cHRlZDwvdGQ&#43;Cjx0ZD5GdW5jdGlvbjwvdGQ&#43;Cjx0ZD4mbHQ7b3B0aW9uYWwmZ3Q7PC90ZD4KPHRkPjwvdGQ&#43;Cjx0ZD5bTGlmZWN5Y2xlIEhvb2tzXSBoYW5kbGVyIGFmdGVyIGRlY3J5cHRpbmc8L3RkPgo8L3RyPgo8dHI&#43;Cjx0ZD5yZXNldDwvdGQ&#43;Cjx0ZD5GdW5jdGlvbjwvdGQ&#43;Cjx0ZD4mbHQ7b3B0aW9uYWwmZ3Q7PC90ZD4KPHRkPjwvdGQ&#43;Cjx0ZD5bTGlmZWN5Y2xlIEhvb2tzXSBoYW5kbGVyIGFmdGVyIGVuY3J5cHRpbmcgYWdhaW48L3RkPgo8L3RyPgo8dHI&#43;Cjx0ZD5kdXJhdGlvbjwvdGQ&#43;Cjx0ZD5OdW1iZXI8L3RkPgo8dGQ&#43;Jmx0O29wdGlvbmFsJmd0OzwvdGQ&#43;Cjx0ZD44NjQwMDwvdGQ&#43;Cjx0ZD5udW1iZXIgb2Ygc2Vjb25kcyB0byBjYWNoZSBkZWNyeXB0aW9uIHN0YXRpc3RpY3MuIHVuaXQ6IHM8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8aDMgaWQ9Im1ldGhvZHMiPk1ldGhvZHM8L2gzPgo8aDQgaWQ9ImluaXQiPmluaXQoKTwvaDQ&#43;CjxwPmluaXRpYWxpemUgRml4SXQgZGVjcnlwdG9yPC9wPgo8aDQgaWQ9ImluaXRzaG9ydGNvZGVzIj5pbml0U2hvcnRjb2RlcygpPC9oND4KPHA&#43;aW5pdGlhbGl6ZSBmaXhpdC1lbmNyeXB0b3Igc2hvcnRjb2RlczwvcD4KPGg0IGlkPSJ2YWxpZGF0ZWNhY2hlIj52YWxpZGF0ZUNhY2hlKCk8L2g0Pgo8cD52YWxpZGF0ZSB0aGUgY2FjaGVkIGRlY3J5cHRpb24gc3RhdGlzdGljcyBpbiBsb2NhbFN0b3JhZ2U8L3A&#43;CjxoNCBpZD0iYWRkZXZlbnRsaXN0ZW5lcmV2ZW50LWxpc3RlbmVyIj5hZGRFdmVudExpc3RlbmVyKGV2ZW50LCBsaXN0ZW5lcik8L2g0Pgo8cD5hZGQgZXZlbnQgbGlzdGVuZXIgZm9yIEZpeEl0IERlY3J5cHRvcjwvcD4KPHRhYmxlPgo8dGhlYWQ&#43;Cjx0cj4KPHRoPk5hbWU8L3RoPgo8dGg&#43;VHlwZTwvdGg&#43;Cjx0aD5EZXNjcmlwdGlvbjwvdGg&#43;CjwvdHI&#43;CjwvdGhlYWQ&#43;Cjx0Ym9keT4KPHRyPgo8dGQ&#43;ZXZlbnQ8L3RkPgo8dGQ&#43;U3RyaW5nPC90ZD4KPHRkPmV2ZW50IG5hbWU8L3RkPgo8L3RyPgo8dHI&#43;Cjx0ZD5saXN0ZW5lcjwvdGQ&#43;Cjx0ZD5GdW5jdGlvbjwvdGQ&#43;Cjx0ZD5ldmVudCBoYW5kbGVyPC90ZD4KPC90cj4KPC90Ym9keT4KPC90YWJsZT4KPGg0IGlkPSJyZW1vdmVldmVudGxpc3RlbmVyZXZlbnQtbGlzdGVuZXIiPnJlbW92ZUV2ZW50TGlzdGVuZXIoZXZlbnQsIGxpc3RlbmVyKTwvaDQ&#43;CjxwPnJlbW92ZSBldmVudCBsaXN0ZW5lciBmb3IgRml4SXQgRGVjcnlwdG9yPC9wPgo8dGFibGU&#43;Cjx0aGVhZD4KPHRyPgo8dGg&#43;TmFtZTwvdGg&#43;Cjx0aD5UeXBlPC90aD4KPHRoPkRlc2NyaXB0aW9uPC90aD4KPC90cj4KPC90aGVhZD4KPHRib2R5Pgo8dHI&#43;Cjx0ZD5ldmVudDwvdGQ&#43;Cjx0ZD5TdHJpbmc8L3RkPgo8dGQ&#43;ZXZlbnQgbmFtZTwvdGQ&#43;CjwvdHI&#43;Cjx0cj4KPHRkPmxpc3RlbmVyPC90ZD4KPHRkPkZ1bmN0aW9uPC90ZD4KPHRkPmV2ZW50IGhhbmRsZXI8L3RkPgo8L3RyPgo8L3Rib2R5Pgo8L3RhYmxlPgo8aDMgaWQ9ImV2ZW50cyI&#43;RXZlbnRzPC9oMz4KPGg0IGlkPSJkZWNyeXB0ZWQiPmRlY3J5cHRlZDwvaDQ&#43;CjxwPmFmdGVyIGRlY3J5cHRpbmc8L3A&#43;CjxoNCBpZD0icmVzZXQiPnJlc2V0PC9oND4KPHA&#43;YWZ0ZXIgZW5jcnlwdGluZyBhZ2FpbjwvcD4="><div class="fixit-decryptor-container">
+  <img class="fixit-decryptor-loading" src="/svg/loading.min.svg" alt="decryptor loading" />
+  <label for="fixit-decryptor-input" title='Password'>
+    <input type="password" id="fixit-decryptor-input" class="d-none" placeholder="🔑 Password is 1212" />
+  </label>
+  <button class="fixit-encryptor-btn d-none"><i class="fa-solid fa-lock" aria-hidden="true"></i> Encrypt again</button>
+</div>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title=2023-02-14&#32;23:12:19>Updated on 2023-02-14&nbsp;<a class="git-hash" href="https://github.com/hugo-fixit/docs/commit/98390778f355dddace2a7999209822fcb5a88522" rel="external nofollow noopener noreferrer" target="_blank" title="commit by Naglfar28(aozora00321@gmail.com) 98390778f355dddace2a7999209822fcb5a88522: refactor to FixIt"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>9839077</a></span>
+      </div><div class="post-info-license d-none">
+          <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+        </div></div>
+    <div class="post-info-line d-none">
+      <div class="post-info-md"><span><a href="/theme-documentation-content-encryption/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="https://github.com/hugo-fixit/docs/edit/main/content/posts/theme-documentation-content-encryption/index.en.md" title="Edit this page"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-edit">Edit this page</a></span></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://fixit.lruihao.cn/theme-documentation-content-encryption/" data-title="Theme Documentation - Content Encryption" data-via="xxxx" data-hashtags="Encryption"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://fixit.lruihao.cn/theme-documentation-content-encryption/" data-hashtag="Encryption"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://fixit.lruihao.cn/theme-documentation-content-encryption/" data-title="Theme Documentation - Content Encryption"><i class="fa-brands fa-hacker-news fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://fixit.lruihao.cn/theme-documentation-content-encryption/" data-title="Theme Documentation - Content Encryption"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://fixit.lruihao.cn/theme-documentation-content-encryption/" data-title="Theme Documentation - Content Encryption"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/encryption/' class="post-tag">Encryption</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/basic-markdown-syntax/" class="post-nav-item" rel="prev" title="Basic Markdown Syntax"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Basic Markdown Syntax</a>
+      <a href="/extended-shortcode-mermaid/" class="post-nav-item" rel="next" title="Extended Shortcode - mermaid">Extended Shortcode - mermaid<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div class="post-reward">
+    <div class="comment">Buy me a coffee</div>
+    <input type="checkbox" class="reward-input" name="reward" id="fi-reward" hidden />
+    <label class="reward-button" for="fi-reward">Donate</label>
+    <div class="reward-ways"><div><img loading="lazy" src="/images/alipay.gif" srcset="/images/alipay.gif, /images/alipay.gif 1.5x, /images/alipay.gif 2x" sizes="auto" data-title="Lruihao Alipay" data-alt="Lruihao Alipay" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span data-animation>Alipay</span>
+          </div><div><img loading="lazy" src="/images/wechatpay.gif" srcset="/images/wechatpay.gif, /images/wechatpay.gif 1.5x, /images/wechatpay.gif 2x" sizes="auto" data-title="Lruihao WeChat Pay" data-alt="Lruihao WeChat Pay" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span data-animation>WeChat Pay</span>
+          </div></div>
+  </div><div id="comments"><div id="giscus">
+          <script
+            src="https://giscus.app/client.js"
+            data-repo="hugo-fixit/FixIt"
+            data-repo-id="R_kgDOGihPtQ"
+            data-category="General"
+            data-category-id="DIC_kwDOGihPtc4CApHX"
+            data-mapping="title"
+            
+            data-theme="preferred_color_scheme"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async
+            defer
+          ></script>
+        </div>
+        <noscript>
+          Please enable JavaScript to view the comments powered by <a href="https://giscus.app/" rel="external nofollow noopener noreferrer">giscus</a>.
+        </noscript></div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18-RC"><img class="fixit-icon" src="/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://lruihao.cn"target="_blank" rel="external nofollow noopener noreferrer">Lruihao</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div><div class="footer-line statistics"><span class="site-time" title='Website running ...'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="run-times ms-1">Website running ...</span></span></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='Total visitors'><i class="fa-regular fa-user fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='Total visits'><i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="View Comments"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><a href="https://github.com/hugo-fixit/FixIt" title="View source on GitHub"target="_blank" rel="external nofollow" class="github-corner right d-none-mobile"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #000;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning">Theme FixIt works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/blue/pace-theme-minimal.css"><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js" defer></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/cell-watermark/watermark.min.js" defer></script><script src="/lib/crypto-js/core.min.js" defer></script><script src="/lib/crypto-js/enc-base64.min.js" defer></script><script src="/lib/crypto-js/md5.min.js" defer></script><script src="/lib/crypto-js/sha256.min.js" defer></script><script src="/js/fixit-decryptor.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>window.config={"autoBookmark":true,"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":true,"expired":false,"giscus":{"darkTheme":"dark_dimmed","lightTheme":"light"}},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"enablePWA":true,"encryption":{"all":true,"shortcode":true},"search":{"algoliaAppID":"YKOM6PKLUY","algoliaIndex":"index.en","algoliaSearchKey":"a44c110d3ac360be2c69cd79d34b77a8","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"},"siteTime":"2021-12-18T16:15:22+08:00","watermark":{"appendto":".wrapper\u003emain","colspacing":30,"content":"","enable":true,"fontfamily":"inherit","fontsize":0.85,"height":21,"opacity":0.0125,"rotate":15,"rowspacing":60,"width":150}};</script><script src="/js/theme.min.js" defer></script><script src="/js/custom.min.js" defer></script><script>document.addEventListener('DOMContentLoaded', () => {
+  fixit.decryptor.addEventListener('decrypted', function() {
+    console.log('after password decryption')
+  })
+  if (window.localStorage.getItem(`fixit-decryptor/#${location.pathname}`)) {
+    console.log('after automatic decryption')
+  }
+});</script></body>
+</html>

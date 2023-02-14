@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>PWA - Tag - FixIt</title>
+    <link>https://fixit.lruihao.cn/tags/pwa/</link>
+    <description>PWA - Tag - FixIt</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
+      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Jan 2022 09:32:56 &#43;0800</lastBuildDate><atom:link href="https://fixit.lruihao.cn/tags/pwa/" rel="self" type="application/rss+xml" /><item>
+  <title>Theme Documentation - PWA Support</title>
+  <link>https://fixit.lruihao.cn/pwa-support/</link>
+  <pubDate>Wed, 26 Jan 2022 09:32:56 &#43;0800</pubDate>
+  <author>Lruihao</author>
+  <guid>https://fixit.lruihao.cn/pwa-support/</guid>
+  <description><![CDATA[<p>Find out how to turn your FixIt site into a Progressive Web App.</p>]]></description>
+</item>
+</channel>
+</rss>

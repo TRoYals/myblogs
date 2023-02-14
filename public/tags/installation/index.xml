@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>installation - Tag - FixIt</title>
+    <link>https://fixit.lruihao.cn/tags/installation/</link>
+    <description>installation - Tag - FixIt</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
+      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</lastBuildDate><atom:link href="https://fixit.lruihao.cn/tags/installation/" rel="self" type="application/rss+xml" /><item>
+  <title>Theme Documentation - Basics</title>
+  <link>https://fixit.lruihao.cn/theme-documentation-basics/</link>
+  <pubDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</pubDate>
+  <author>Lruihao</author>
+  <guid>https://fixit.lruihao.cn/theme-documentation-basics/</guid>
+  <description><![CDATA[<p>Discover what the Hugo - <strong>FixIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item>
+</channel>
+</rss>
