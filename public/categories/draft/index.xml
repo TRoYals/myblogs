@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>draft - Category - On the Naglfar</title>
+    <link>https://fixit.lruihao.cn/categories/draft/</link>
+    <description>draft - Category - On the Naglfar</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
+      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</lastBuildDate><atom:link href="https://fixit.lruihao.cn/categories/draft/" rel="self" type="application/rss+xml" /><item>
+  <title>MyFirstBlog</title>
+  <link>https://fixit.lruihao.cn/myfirstblog/</link>
+  <pubDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://fixit.lruihao.cn/myfirstblog/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

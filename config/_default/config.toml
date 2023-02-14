@@ -5,11 +5,11 @@
 
 # website title
 # 网站标题
-title = "FixIt"
+title = "On the Naglfar"
 
 # Hostname (and path) to the root
 # 根目录的主机名（和路径）
-baseURL = "http://naglfar28.com"
+baseURL = "https://www.naglfar28.com"
 
 # theme
 # 主题

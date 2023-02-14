@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>FixIt</title>
+    <title>On the Naglfar</title>
     <link>https://fixit.lruihao.cn/</link>
     <description>Hugo theme - FixIt</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 20 Jul 2022 13:56:03 &#43;0800</lastBuildDate>
+      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</lastBuildDate>
       <atom:link href="https://fixit.lruihao.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
   <title>Theme Documentation - Basics</title>
@@ -47,6 +47,14 @@
   <description><![CDATA[<p>Find out how to turn your FixIt site into a Progressive Web App.</p>]]></description>
 </item>
 <item>
+  <title>MyFirstBlog</title>
+  <link>https://fixit.lruihao.cn/myfirstblog/</link>
+  <pubDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://fixit.lruihao.cn/myfirstblog/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
   <title>Extended Shortcode - typeit</title>
   <link>https://fixit.lruihao.cn/extended-shortcode-typeit/</link>
   <pubDate>Wed, 20 Jul 2022 13:56:03 &#43;0800</pubDate>
@@ -79,14 +87,6 @@
   <guid>https://fixit.lruihao.cn/extended-shortcode-mapbox/</guid>
   <description><![CDATA[<a href="https://github.com/hugo-fixit/FixIt/releases/tag/v0.2.0" rel="external nofollow noopener noreferrer" target="_blank"></a>
 <p>The <code>mapbox</code> shortcode supports interactive maps in Hugo with <a href="https://docs.mapbox.com/mapbox-gl-js"target="_blank" rel="external nofollow noopener noreferrer">Mapbox GL JS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> library.</p>]]></description>
-</item>
-<item>
-  <title>Extended Shortcode - echarts</title>
-  <link>https://fixit.lruihao.cn/extended-shortcode-echarts/</link>
-  <pubDate>Wed, 20 Jul 2022 11:44:15 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/extended-shortcode-echarts/</guid>
-  <description><![CDATA[<p>The <code>echarts</code> shortcode supports data visualization in Hugo with <a href="https://echarts.apache.org/"target="_blank" rel="external nofollow noopener noreferrer">ECharts<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> library.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -3,6 +3,7 @@ https://fixit.lruihao.cn/theme-documentation-content/
 https://fixit.lruihao.cn/theme-documentation-built-in-shortcodes/
 https://fixit.lruihao.cn/theme-documentation-extended-shortcodes/
 https://fixit.lruihao.cn/pwa-support/
+https://fixit.lruihao.cn/myfirstblog/
 https://fixit.lruihao.cn/extended-shortcode-typeit/
 https://fixit.lruihao.cn/extended-shortcode-bilibili/
 https://fixit.lruihao.cn/extended-shortcode-music/

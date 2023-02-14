@@ -47,7 +47,7 @@
           hreflang="en"
           href="https://fixit.lruihao.cn/pwa-support/"
           /></url><url>
-      <loc>https://fixit.lruihao.cn/categories/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://fixit.lruihao.cn/categories/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://fixit.lruihao.cn/zh-cn/categories/"
@@ -55,6 +55,36 @@
           rel="alternate"
           hreflang="en"
           href="https://fixit.lruihao.cn/categories/"
+          /></url><url>
+      <loc>https://fixit.lruihao.cn/tags/draft/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://fixit.lruihao.cn/categories/draft/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://fixit.lruihao.cn/myfirstblog/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://fixit.lruihao.cn/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://fixit.lruihao.cn/zh-cn/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://fixit.lruihao.cn/"
+          /></url><url>
+      <loc>https://fixit.lruihao.cn/posts/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://fixit.lruihao.cn/zh-cn/posts/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://fixit.lruihao.cn/posts/"
+          /></url><url>
+      <loc>https://fixit.lruihao.cn/tags/</loc><lastmod>2023-02-14T23:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://fixit.lruihao.cn/zh-cn/tags/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://fixit.lruihao.cn/tags/"
           /></url><url>
       <loc>https://fixit.lruihao.cn/extended-shortcode-typeit/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
@@ -65,24 +95,6 @@
           hreflang="en"
           href="https://fixit.lruihao.cn/extended-shortcode-typeit/"
           /></url><url>
-      <loc>https://fixit.lruihao.cn/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-            rel="alternate"
-            hreflang="zh-cn"
-            href="https://fixit.lruihao.cn/zh-cn/"
-            /><xhtml:link
-          rel="alternate"
-          hreflang="en"
-          href="https://fixit.lruihao.cn/"
-          /></url><url>
-      <loc>https://fixit.lruihao.cn/posts/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-            rel="alternate"
-            hreflang="zh-cn"
-            href="https://fixit.lruihao.cn/zh-cn/posts/"
-            /><xhtml:link
-          rel="alternate"
-          hreflang="en"
-          href="https://fixit.lruihao.cn/posts/"
-          /></url><url>
       <loc>https://fixit.lruihao.cn/tags/shortcodes/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
@@ -91,15 +103,6 @@
           rel="alternate"
           hreflang="en"
           href="https://fixit.lruihao.cn/tags/shortcodes/"
-          /></url><url>
-      <loc>https://fixit.lruihao.cn/tags/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-            rel="alternate"
-            hreflang="zh-cn"
-            href="https://fixit.lruihao.cn/zh-cn/tags/"
-            /><xhtml:link
-          rel="alternate"
-          hreflang="en"
-          href="https://fixit.lruihao.cn/tags/"
           /></url><url>
       <loc>https://fixit.lruihao.cn/extended-shortcode-bilibili/</loc><lastmod>2023-02-14T23:28:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
