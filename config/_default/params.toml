@@ -118,7 +118,7 @@ disableThemeInject = false
   [header.title]
     # URL of the LOGO
     # LOGO 的 URL
-    logo = "http://fuqixuan.com/wp-content/uploads/2020/04/logo.png"
+    logo = "logo.png"
     # title name
     # 标题名称
     name = ""
