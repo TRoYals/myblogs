@@ -1,15 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>draft - Tag - On the Naglfar</title>
-    <link>https://fixit.lruihao.cn/tags/draft/</link>
+    <link>https://naglfar28.com/tags/draft/</link>
     <description>draft - Tag - On the Naglfar</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</lastBuildDate><atom:link href="https://fixit.lruihao.cn/tags/draft/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Feb 2023 16:20:29 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/tags/draft/" rel="self" type="application/rss+xml" /><item>
+  <title>Bookshelf</title>
+  <link>https://naglfar28.com/bookshelf/</link>
+  <pubDate>Wed, 15 Feb 2023 16:20:29 &#43;0800</pubDate>
+  <author>Author</author>
+  <guid>https://naglfar28.com/bookshelf/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
   <title>MyFirstBlog</title>
-  <link>https://fixit.lruihao.cn/myfirstblog/</link>
+  <link>https://naglfar28.com/myfirstblog/</link>
   <pubDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</pubDate>
   <author>TRoYals</author>
-  <guid>https://fixit.lruihao.cn/myfirstblog/</guid>
+  <guid>https://naglfar28.com/myfirstblog/</guid>
   <description><![CDATA[]]></description>
 </item>
 </channel>

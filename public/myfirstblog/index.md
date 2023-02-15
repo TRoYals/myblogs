@@ -6,8 +6,9 @@
 This my first BLOG!!!
 
 
+
 ---
 
-> Author: TRoYals  
-> URL: https://fixit.lruihao.cn/myfirstblog/  
+> Author: [TRoYals](naglfar28.com)  
+> URL: https://naglfar28.com/myfirstblog/  
 

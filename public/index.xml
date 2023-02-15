@@ -1,92 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>On the Naglfar</title>
-    <link>https://fixit.lruihao.cn/</link>
+    <link>https://naglfar28.com/</link>
     <description>Hugo theme - FixIt</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-      <webMaster>1024@lruihao.cn (Lruihao)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</lastBuildDate>
-      <atom:link href="https://fixit.lruihao.cn/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Feb 2023 16:20:29 &#43;0800</lastBuildDate>
+      <atom:link href="https://naglfar28.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-  <title>Theme Documentation - Basics</title>
-  <link>https://fixit.lruihao.cn/theme-documentation-basics/</link>
-  <pubDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/theme-documentation-basics/</guid>
-  <description><![CDATA[<p>Discover what the Hugo - <strong>FixIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
-</item>
-<item>
-  <title>Theme Documentation - Content</title>
-  <link>https://fixit.lruihao.cn/theme-documentation-content/</link>
-  <pubDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/theme-documentation-content/</guid>
-  <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>FixIt</strong> theme.</p>]]></description>
-</item>
-<item>
-  <title>Theme Documentation - Built-in Shortcodes</title>
-  <link>https://fixit.lruihao.cn/theme-documentation-built-in-shortcodes/</link>
-  <pubDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/theme-documentation-built-in-shortcodes/</guid>
-  <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>]]></description>
-</item>
-<item>
-  <title>Theme Documentation - Extended Shortcodes</title>
-  <link>https://fixit.lruihao.cn/theme-documentation-extended-shortcodes/</link>
-  <pubDate>Sun, 19 Dec 2021 16:15:22 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/theme-documentation-extended-shortcodes/</guid>
-  <description><![CDATA[<p><strong>FixIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>]]></description>
-</item>
-<item>
-  <title>Theme Documentation - PWA Support</title>
-  <link>https://fixit.lruihao.cn/pwa-support/</link>
-  <pubDate>Wed, 26 Jan 2022 09:32:56 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/pwa-support/</guid>
-  <description><![CDATA[<p>Find out how to turn your FixIt site into a Progressive Web App.</p>]]></description>
-</item>
-<item>
-  <title>MyFirstBlog</title>
-  <link>https://fixit.lruihao.cn/myfirstblog/</link>
-  <pubDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</pubDate>
-  <author>TRoYals</author>
-  <guid>https://fixit.lruihao.cn/myfirstblog/</guid>
+  <title>Bookshelf</title>
+  <link>https://naglfar28.com/bookshelf/</link>
+  <pubDate>Wed, 15 Feb 2023 16:20:29 &#43;0800</pubDate>
+  <author>Author</author>
+  <guid>https://naglfar28.com/bookshelf/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
-  <title>Extended Shortcode - typeit</title>
-  <link>https://fixit.lruihao.cn/extended-shortcode-typeit/</link>
-  <pubDate>Wed, 20 Jul 2022 13:56:03 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/extended-shortcode-typeit/</guid>
-  <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/"target="_blank" rel="external nofollow noopener noreferrer">TypeIt<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> library.</p>]]></description>
-</item>
-<item>
-  <title>Extended Shortcode - bilibili</title>
-  <link>https://fixit.lruihao.cn/extended-shortcode-bilibili/</link>
-  <pubDate>Wed, 20 Jul 2022 13:55:03 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/extended-shortcode-bilibili/</guid>
-  <description><![CDATA[<a href="https://github.com/hugo-fixit/FixIt/releases/tag/v0.2.0" rel="external nofollow noopener noreferrer" target="_blank"></a>
-<p>The <code>bilibili</code> shortcode embeds a responsive video player for bilibili videos.</p>]]></description>
-</item>
-<item>
-  <title>Extended Shortcode - music</title>
-  <link>https://fixit.lruihao.cn/extended-shortcode-music/</link>
-  <pubDate>Wed, 20 Jul 2022 13:01:03 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/extended-shortcode-music/</guid>
-  <description><![CDATA[<p>The <code>music</code> shortcode embeds a responsive music player based on <a href="https://github.com/MoePlayer/APlayer"target="_blank" rel="external nofollow noopener noreferrer">APlayer<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> and <a href="https://github.com/metowolf/MetingJS"target="_blank" rel="external nofollow noopener noreferrer">MetingJS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>.</p>]]></description>
-</item>
-<item>
-  <title>Extended Shortcode - mapbox</title>
-  <link>https://fixit.lruihao.cn/extended-shortcode-mapbox/</link>
-  <pubDate>Wed, 20 Jul 2022 12:22:15 &#43;0800</pubDate>
-  <author>Lruihao</author>
-  <guid>https://fixit.lruihao.cn/extended-shortcode-mapbox/</guid>
-  <description><![CDATA[<a href="https://github.com/hugo-fixit/FixIt/releases/tag/v0.2.0" rel="external nofollow noopener noreferrer" target="_blank"></a>
-<p>The <code>mapbox</code> shortcode supports interactive maps in Hugo with <a href="https://docs.mapbox.com/mapbox-gl-js"target="_blank" rel="external nofollow noopener noreferrer">Mapbox GL JS<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> library.</p>]]></description>
+  <title>MyFirstBlog</title>
+  <link>https://naglfar28.com/myfirstblog/</link>
+  <pubDate>Tue, 14 Feb 2023 23:50:05 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/myfirstblog/</guid>
+  <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

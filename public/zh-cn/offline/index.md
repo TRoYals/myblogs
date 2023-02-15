@@ -11,6 +11,6 @@ keywords:
 
 ---
 
-> 作者: [Lruihao](https://lruihao.cn)  
-> URL: https://fixit.lruihao.cn/zh-cn/offline/  
+> 作者: [TRoYals](naglfar28.com)  
+> URL: https://naglfar28.com/zh-cn/offline/  
 

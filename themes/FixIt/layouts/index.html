@@ -18,7 +18,7 @@
       </div>
     {{- end -}}
 
-    {{- /* Posts */ -}}
+    <!-- {{- /* Posts */ -}}
     {{- if ne $posts.enable false | and .Site.RegularPages -}}
       {{- /* Paginate */ -}}
       {{- $pages := where .Site.RegularPages "Type" "posts" -}}
@@ -36,6 +36,6 @@
         {{- .Render "summary" -}}
       {{- end -}}
       {{- partial "paginator.html" . -}}
-    {{- end -}}
+    {{- end -}} -->
   </div>
 {{- end -}}

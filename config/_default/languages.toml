@@ -13,7 +13,7 @@
   languageName = "English"
   # whether to include Chinese/Japanese/Korean
   # 是否包括中日韩文字
-  hasCJKLanguage = false
+  hasCJKLanguage = true
   # copyright description used only for seo schema
   # 版权描述，仅用于 SEO
   copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."

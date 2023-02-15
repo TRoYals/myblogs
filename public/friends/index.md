@@ -19,6 +19,6 @@ You could add your FixIt site to this page in **nickname** lexicographical order
 
 ---
 
-> Author: [Lruihao](https://lruihao.cn)  
-> URL: https://fixit.lruihao.cn/friends/  
+> Author: [TRoYals](naglfar28.com)  
+> URL: https://naglfar28.com/friends/  
 

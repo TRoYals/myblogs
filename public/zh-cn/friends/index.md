@@ -19,6 +19,6 @@
 
 ---
 
-> 作者: [Lruihao](https://lruihao.cn)  
-> URL: https://fixit.lruihao.cn/zh-cn/friends/  
+> 作者: [TRoYals](naglfar28.com)  
+> URL: https://naglfar28.com/zh-cn/friends/  
 

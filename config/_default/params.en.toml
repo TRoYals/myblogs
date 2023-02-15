@@ -21,12 +21,12 @@
   rss = 10
   [home.profile]
     enable = true
-    gravatarEmail = ""
+    gravatarEmail = "aozora00321@gmail.com"
     avatarURL = "/images/avatar.png"
-    title = ""
-    subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+    title = "On the Naglfar"
+    subtitle = "Our lady-loves, --phantasms of our brains,           --Dream fancies blown into soap-bubbles！|"
     typeit = true
-    social = true
+    social = false
     disclaimer = ""
   [home.posts]
     enable = true

@@ -83,7 +83,7 @@
 [[main]]
   identifier = "github"
   pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
-  url = "https://github.com/hugo-fixit/FixIt"
+  url = "https://github.com/TRoYals"
   title = "GitHub"
   weight = 8
   [main.params]

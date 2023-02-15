@@ -17,7 +17,7 @@ keywords = ["Hugo", "FixIt"]
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-gitRepo = "https://github.com/hugo-fixit/docs"
+gitRepo = "https://github.com/TRoYals/myblogs"
 # which hash function used for SRI, when empty, no SRI is used ["sha256", "sha384", "sha512", "md5"]
 # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ["sha256", "sha384", "sha512", "md5"]
 fingerprint = ""
@@ -118,10 +118,10 @@ disableThemeInject = false
   [header.title]
     # URL of the LOGO
     # LOGO 的 URL
-    logo = "/fixit.min.svg"
+    logo = "http://fuqixuan.com/wp-content/uploads/2020/04/logo.png"
     # title name
     # 标题名称
-    name = "FixIt"
+    name = ""
     # you can add extra information before the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
     pre = ""
@@ -152,7 +152,7 @@ disableThemeInject = false
   custom = ""
   # whether to show Hugo and theme info
   # 是否显示 Hugo 和主题信息
-  hugo = true
+  hugo = false
   # whether to show copyright info
   # 是否显示版权信息
   copyright = true
@@ -161,8 +161,8 @@ disableThemeInject = false
   author = true
   # site creation year
   # 网站创立年份
-  since = 2021
-  # TODO whether to show total word count of site content
+  since = 2023
+  # TODO wheter to show total word count of site content
   # TODO 是否显示网站内容总字数
   wordCount = true
   # Public network security only in China (HTML format is supported) since v0.2.12
@@ -253,7 +253,7 @@ disableThemeInject = false
     enable = true
     # Gravatar Email for preferred avatar in home page
     # Gravatar 邮箱，用于优先在主页显示的头像
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = "aozora00321@gmail.com"
     # URL of avatar shown in home page
     # 主页显示头像的 URL
     avatarURL = ""
@@ -571,7 +571,7 @@ disableThemeInject = false
   # Comment config
   # 评论系统设置
   [page.comment]
-    enable = false
+    enable = true
     # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
     # FixIt 0.2.13 | 新增 Artalk 评论系统设置 (https://artalk.js.org/)
     [page.comment.artalk]
@@ -889,7 +889,7 @@ disableThemeInject = false
 # 在左上角或者右上角显示 GitHub 开源链接 since v0.2.14
 [githubCorner]
   enable = true
-  permalink = "https://github.com/hugo-fixit/FixIt"
+  permalink = "https://github.com/TRoYals"
   title = "View source on GitHub"
   position = "right" # ["left", "right"]
 
