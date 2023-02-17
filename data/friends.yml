@@ -1,8 +1,8 @@
 # 📌 Sticky author site in https://fixit.lruihao.cn
-- nickname: Lruihao
+- nickname: fuqixuan
   avatar: https://lruihao.cn/images/avatar.jpg
-  url: https://lruihao.cn
-  description: Share programming experience and learning experience.
+  url: http://fuqixuan.com
+  description: my private personal web.
 # -------------------------------------------------------------------------------------
 # Single Friend Link Information
 # 单个友情链接信息
@@ -17,27 +17,3 @@
 # 按 `nickname` 以字典顺序将您的 FixIt 网站添加到列表中
 # -------------------------------------------------------------------------------------
 
-- nickname: Ayang
-  avatar: https://ayang.ink/images/avatar.jpg
-  url: https://ayang.ink
-  description: Ayang's blog
-
-- nickname: hiifong
-  avatar: https://i.hiifong.cc/images/avatar.png
-  url: https://i.hiifong.cc
-  description: hiifong's blog, share anything!!!
-
-- nickname: Niku
-  avatar: https://www.nikunokoya.com/images/avatar.jpg
-  url: https://www.nikunokoya.com
-  description: Niku's blog
-
-- nickname: wlanxww
-  avatar: https://wlanxww.com/images/avatar.jpeg
-  url: https://wlanxww.com
-  description: wlanxww's blog
-
-- nickname: ADD
-  avatar: /fixit.min.svg
-  url: https://github.com/hugo-fixit/docs/edit/main/data/friends.yml
-  description: Create a pull request to add a new site.

@@ -11,6 +11,6 @@ keywords:
 
 ---
 
-> Author: [TRoYals](naglfar28.com)  
+> Author: [TRoYals](https://naglfar28.com)  
 > URL: https://naglfar28.com/offline/  
 

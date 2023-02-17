@@ -3,13 +3,13 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 draft: true
-author: ""
-authorLink: ""
-authorEmail: ""
+author: "TRoYals"
+authorLink: "Naglfar28.com"
+authorEmail: "aozora00321@gmail.com"
 description: ""
 keywords: ""
 license: ""
-comment: false
+comment: true
 weight: 0
 
 tags:
@@ -17,7 +17,7 @@ tags:
 categories:
 - draft
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 
 summary: ""

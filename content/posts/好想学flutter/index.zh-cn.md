@@ -1,21 +1,21 @@
 ---
-title: "MyFirstBlog"
+title: "好想学Flutter啊"
 subtitle: ""
-date: 2023-02-14T23:50:05+08:00
+date: 2023-02-17T15:20:09+08:00
 draft: false
 author: "TRoYals"
-authorLink: ""
+authorLink: "Naglfar28.com"
 authorEmail: ""
 description: ""
 keywords: ""
 license: ""
-comment: false
+comment: true
 weight: 0
 
 tags:
-  - draft
+  - flutter
 categories:
-  - draft
+  - flutter
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -43,5 +43,7 @@ repost:
 
 <!--more-->
 
-This my first BLOG!!!
+感觉 flutter 真的好优雅啊，跨平台，随时随地开发应用。
+想的是这里建一个 todo List 来 track flutter 的学习记录。
 
+# start date #card

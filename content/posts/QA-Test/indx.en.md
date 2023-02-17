@@ -1,31 +1,31 @@
 ---
-title: "Bookshelf"
+title: "QA-Test"
 subtitle: ""
-date: 2023-02-15T16:20:29+08:00
+date: 2023-02-17T15:50:48+08:00
 draft: false
-author: ""
-authorLink: ""
-authorEmail: ""
+author: "TRoYals"
+authorLink: "Naglfar28.com"
+authorEmail: "aozora00321@gmail.com"
 description: ""
 keywords: ""
 license: ""
-comment: false
+comment: true
 weight: 0
 
 tags:
-- draft
+  - QA-test
 categories:
-- draft
+  - QA-test
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
 summary: ""
 resources:
-- name: featured-image
-  src: featured-image.jpg
-- name: featured-image-preview
-  src: featured-image-preview.jpg
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
 
 toc:
   enable: true
@@ -38,9 +38,10 @@ seo:
 repost:
   enable: true
   url: ""
-
 # See details front matter: https://fixit.lruihao.cn/theme-documentation-content/#front-matter
 ---
 
 <!--more-->
-The book that I had read this year.
+
+You can check my QA-test project experience from here:
+[qa.naglfar](https://qa.naglfar28.com)

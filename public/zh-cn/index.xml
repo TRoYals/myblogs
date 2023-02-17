@@ -2,9 +2,17 @@
   <channel>
     <title>On the Naglfar</title>
     <link>https://naglfar28.com/zh-cn/</link>
-    <description>Hugo 主题 - FixIt</description>
+    <description>On the Naglfar</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 17 Feb 2023 15:20:09 &#43;0800</lastBuildDate>
       <atom:link href="https://naglfar28.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+    <item>
+  <title>好想学Flutter啊</title>
+  <link>https://naglfar28.com/zh-cn/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/</link>
+  <pubDate>Fri, 17 Feb 2023 15:20:09 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/zh-cn/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

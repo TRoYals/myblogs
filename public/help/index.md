@@ -25,6 +25,6 @@ Didn't find your questions? Join the [discussions](https://github.com/hugo-fixit
 
 ---
 
-> Author: [TRoYals](naglfar28.com)  
+> Author: [TRoYals](https://naglfar28.com)  
 > URL: https://naglfar28.com/help/  
 

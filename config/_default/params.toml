@@ -44,7 +44,7 @@ disableThemeInject = false
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
   # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-  title = "FixIt"
+  title = "Naglfar"
   # whether to omit favicon resource links
   # 是否隐藏网站图标资源链接
   noFavicon = false
@@ -262,7 +262,7 @@ disableThemeInject = false
     title = ""
     # subtitle shown in home page
     # 主页显示的网站副标题
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = ""
     # whether to use typeit animation for subtitle
     # 是否为副标题显示打字机动画
     typeit = true
@@ -540,7 +540,7 @@ disableThemeInject = false
   # Social share links in post page
   # 文章页面的分享信息设置
   [page.share]
-    enable = true
+    enable = false
     Twitter = true
     Facebook = true
     Linkedin = false

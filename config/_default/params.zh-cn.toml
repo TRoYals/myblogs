@@ -3,7 +3,7 @@
 # See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
 # -------------------------------------------------------------------------------------
 
-description = "Hugo 主题 - FixIt"
+description = ""
 
 [search]
   enable = true
@@ -23,12 +23,12 @@ description = "Hugo 主题 - FixIt"
   rss = 10
   [home.profile]
     enable = true
-    gravatarEmail = ""
+    gravatarEmail = "aozora00321@gmail.com"
     avatarURL = "/images/avatar.png"
-    title = ""
-    subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+    title = "TRoYals"
+    subtitle = "我们的情人，不过是随便借个名字，    用幻想吹出的肥皂泡！"
     typeit = true
-    social = true
+    social = false
     disclaimer = ""
   [home.posts]
     enable = true

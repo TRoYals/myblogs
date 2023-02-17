@@ -2,8 +2,9 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>https://naglfar28.com/bookshelf/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://naglfar28.com/categories/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://naglfar28.com/tags/agile/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/basic_of_agiles/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/categories/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://naglfar28.com/zh-cn/categories/"
@@ -12,9 +13,7 @@
           hreflang="en"
           href="https://naglfar28.com/categories/"
           /></url><url>
-      <loc>https://naglfar28.com/tags/draft/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://naglfar28.com/categories/draft/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://naglfar28.com/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://naglfar28.com/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://naglfar28.com/zh-cn/"
@@ -23,8 +22,18 @@
           hreflang="en"
           href="https://naglfar28.com/"
           /></url><url>
-      <loc>https://naglfar28.com/posts/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-      <loc>https://naglfar28.com/tags/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+      <loc>https://naglfar28.com/posts/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://naglfar28.com/zh-cn/posts/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://naglfar28.com/posts/"
+          /></url><url>
+      <loc>https://naglfar28.com/tags/qa-test/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/categories/qa-test/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/tags/</loc><lastmod>2023-02-17T17:06:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"
             href="https://naglfar28.com/zh-cn/tags/"
@@ -33,7 +42,34 @@
           hreflang="en"
           href="https://naglfar28.com/tags/"
           /></url><url>
-      <loc>https://naglfar28.com/myfirstblog/</loc><lastmod>2023-02-15T02:52:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/indx/</loc><lastmod>2023-02-17T15:52:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>https://naglfar28.com/tags/flutter/</loc><lastmod>2023-02-17T15:50:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://naglfar28.com/zh-cn/tags/flutter/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://naglfar28.com/tags/flutter/"
+          /></url><url>
+      <loc>https://naglfar28.com/categories/flutter/</loc><lastmod>2023-02-17T15:50:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://naglfar28.com/zh-cn/categories/flutter/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://naglfar28.com/categories/flutter/"
+          /></url><url>
+      <loc>https://naglfar28.com/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/</loc><lastmod>2023-02-17T15:50:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            rel="alternate"
+            hreflang="zh-cn"
+            href="https://naglfar28.com/zh-cn/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/"
+            /><xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://naglfar28.com/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/"
+          /></url><url>
       <loc>https://naglfar28.com/about/</loc><lastmod>2023-02-15T16:21:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
             rel="alternate"
             hreflang="zh-cn"

@@ -13,12 +13,12 @@ You could add your FixIt site to this page in **nickname** lexicographical order
   description: <description of your site>
 ```
 
-> :(fa-solid fa-exclamation-triangle): *Website failure, stop maintenance and improper content may be unlinked!*
-{{< /admonition >}}
+> :(fa-solid fa-exclamation-triangle): _Website failure, stop maintenance and improper content may be unlinked!_
+> {{< /admonition >}}
 
 
 ---
 
-> Author: [TRoYals](naglfar28.com)  
+> Author: [TRoYals](https://naglfar28.com)  
 > URL: https://naglfar28.com/friends/  
 
