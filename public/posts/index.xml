@@ -4,7 +4,23 @@
     <link>https://naglfar28.com/posts/</link>
     <description>All Posts | On the Naglfar</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Feb 2023 21:50:44 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 25 Feb 2023 09:13:44 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>扁平结构转Tree</title>
+  <link>https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/</guid>
+  <description><![CDATA[引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入：]]></description>
+</item>
+<item>
+  <title>交易系统</title>
+  <link>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</link>
+  <pubDate>Sat, 25 Feb 2023 09:13:44 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
   <title>React&#43;TS&#43;Solidity&#43;NftMarket</title>
   <link>https://naglfar28.com/react-ts-solidity-nftmarket/</link>
   <pubDate>Mon, 20 Feb 2023 10:11:44 &#43;0800</pubDate>
@@ -45,6 +61,14 @@
   <description><![CDATA[]]></description>
 </item>
 <item>
+  <title>交易系统</title>
+  <link>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</link>
+  <pubDate>Sat, 25 Feb 2023 09:13:44 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
   <title>Web_tool</title>
   <link>https://naglfar28.com/web_tool/</link>
   <pubDate>Tue, 21 Feb 2023 21:50:44 &#43;0800</pubDate>
@@ -83,6 +107,14 @@
   <author>TRoYals</author>
   <guid>https://naglfar28.com/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/</guid>
   <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>扁平结构转Tree</title>
+  <link>https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/</guid>
+  <description><![CDATA[引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入：]]></description>
 </item>
 </channel>
 </rss>

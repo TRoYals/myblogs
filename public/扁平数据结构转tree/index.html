@@ -5,42 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>React&#43;TS&#43;Solidity&#43;NftMarket - On the Naglfar</title><meta name="author" content="TRoYals">
+    <title>扁平结构转Tree - On the Naglfar</title><meta name="author" content="TRoYals">
 <meta name="author-link" content="https://naglfar28.com">
-<meta name="description" content="Hugo theme - FixIt" /><meta name="keywords" content='draft' /><meta itemprop="name" content="React&#43;TS&#43;Solidity&#43;NftMarket">
-<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-02-20T10:11:44+08:00" />
-<meta itemprop="dateModified" content="2023-02-23T10:58:03+08:00" />
-<meta itemprop="wordCount" content="139"><meta itemprop="image" content="https://naglfar28.com/logo.png"/>
-<meta itemprop="keywords" content="draft," /><meta property="og:title" content="React&#43;TS&#43;Solidity&#43;NftMarket" />
-<meta property="og:description" content="" />
+<meta name="description" content="引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入：" /><meta name="keywords" content='draft' /><meta itemprop="name" content="扁平结构转Tree">
+<meta itemprop="description" content="引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入：">
+<meta itemprop="dateModified" content="2023-03-14T00:07:53+08:00" />
+<meta itemprop="wordCount" content="473"><meta itemprop="image" content="https://naglfar28.com/logo.png"/>
+<meta itemprop="keywords" content="draft," /><meta property="og:title" content="扁平结构转Tree" />
+<meta property="og:description" content="引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入：" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://naglfar28.com/react-ts-solidity-nftmarket/" /><meta property="og:image" content="https://naglfar28.com/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-20T10:11:44+08:00" />
-<meta property="article:modified_time" content="2023-02-23T10:58:03+08:00" />
+<meta property="og:url" content="https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/" /><meta property="og:image" content="https://naglfar28.com/logo.png"/><meta property="article:section" content="posts" />
+
+<meta property="article:modified_time" content="2023-03-14T00:07:53+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://naglfar28.com/logo.png"/>
 
-<meta name="twitter:title" content="React&#43;TS&#43;Solidity&#43;NftMarket"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="扁平结构转Tree"/>
+<meta name="twitter:description" content="引子 在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。 面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金 输入："/>
 <meta name="application-name" content="Naglfar">
 <meta name="apple-mobile-web-app-title" content="Naglfar"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://naglfar28.com/react-ts-solidity-nftmarket/" /><link rel="prev" href="https://naglfar28.com/basic_of_agiles/" /><link rel="next" href="https://naglfar28.com/web_tool/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://naglfar28.com/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/" /><link rel="next" href="https://naglfar28.com/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "React+TS+Solidity+NftMarket",
+    "headline": "扁平结构转Tree",
     "inLanguage": "en",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/naglfar28.com\/react-ts-solidity-nftmarket\/"
+      "@id": "https:\/\/naglfar28.com\/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree\/"
     },"image": [{
               "@type": "ImageObject",
               "url": "https:\/\/naglfar28.com\/images\/Apple-Devices-Preview.jpg",
               "width":  1842 ,
               "height":  1036 
-            }],"genre": "posts","keywords": "draft","wordcount":  139 ,
-    "url": "https:\/\/naglfar28.com\/react-ts-solidity-nftmarket\/","datePublished": "2023-02-20T10:11:44+08:00","dateModified": "2023-02-23T10:58:03+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            }],"genre": "posts","keywords": "draft","wordcount":  473 ,
+    "url": "https:\/\/naglfar28.com\/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree\/","dateModified": "2023-03-14T00:07:53+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
       "@type": "Organization",
       "name": "Lruihao","logo": {
           "@type": "ImageObject",
@@ -212,11 +212,11 @@
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX">
-        <span title="Repost" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>React&#43;TS&#43;Solidity&#43;NftMarket</span>
+        <span>扁平结构转Tree</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><a href="https://naglfar28.com" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="https://www.gravatar.com/avatar/b336a03712fd7bbd185205f3912deaee?s=32&amp;d=mp" srcset="https://www.gravatar.com/avatar/b336a03712fd7bbd185205f3912deaee?s=32&amp;d=mp, https://www.gravatar.com/avatar/b336a03712fd7bbd185205f3912deaee?s=32&amp;d=mp 1.5x, https://www.gravatar.com/avatar/b336a03712fd7bbd185205f3912deaee?s=32&amp;d=mp 2x" sizes="auto" data-title="TRoYals" data-alt="TRoYals" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;TRoYals</a></span>
           <span class="post-category">included in <a href="/categories/draft/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> draft</a></span></div>
-      <div class="post-meta-line"><span title=2023-02-20&#32;10:11:44><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-20">2023-02-20</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 139 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> One minute</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="React&#43;TS&#43;Solidity&#43;NftMarket">
+      <div class="post-meta-line"><span title=0001-01-01&#32;00:00:00><i class="fa-regular fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw" aria-hidden="true"></i> 473 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> One minute</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="扁平结构转Tree">
               <i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv">-</span>&nbsp;views
             </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
@@ -226,57 +226,106 @@
         </div>
         <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#strat-the-project">strat the project</a></li>
-    <li><a href="#web3-provider">Web3 Provider</a></li>
-    <li><a href="#ganache-truffle">Ganache Truffle</a></li>
-    <li><a href="#react-custom-hooks">react custom hooks</a></li>
+    <li><a href="#思路-1">思路 1</a></li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><h2 id="strat-the-project">strat the project</h2>
-<p>npx create-next-app nft-marketplace &ndash;typescript</p>
-<p>Use the tailwind</p>
-<p>Install Tailwind CSS with Next.js - Tailwind CSS: <a href="https://tailwindcss.com/docs/guides/nextjs"target="_blank" rel="external nofollow noopener noreferrer">https://tailwindcss.com/docs/guides/nextjs<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<h2 id="web3-provider">Web3 Provider</h2>
+      </div><div class="content" id="content"><h1 id="引子">引子</h1>
+<p>在掘金上看到了这篇文章，感觉还蛮有意思的，试试看能不能解决。
+<a href="https://juejin.cn/post/6983904373508145189"target="_blank" rel="external nofollow noopener noreferrer">面试了十几个高级前端，竟然连（扁平数据结构转 Tree）都写不出来 - 掘金<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
+<p>输入：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm install ethers @metamask/providers
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;部门1&#34;</span><span class="p">,</span> <span class="nx">pid</span><span class="o">:</span> <span class="mi">0</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;部门2&#34;</span><span class="p">,</span> <span class="nx">pid</span><span class="o">:</span> <span class="mi">1</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;部门3&#34;</span><span class="p">,</span> <span class="nx">pid</span><span class="o">:</span> <span class="mi">1</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">4</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;部门4&#34;</span><span class="p">,</span> <span class="nx">pid</span><span class="o">:</span> <span class="mi">3</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;部门5&#34;</span><span class="p">,</span> <span class="nx">pid</span><span class="o">:</span> <span class="mi">4</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>A Provider is an abstraction of a connection to the Ethereum network, providing a concise, consistent interface to standard Ethereum node functionality.</p>
-<ul>
-<li><a href="https://docs.ethers.org/v5/api/providers/"target="_blank" rel="external nofollow noopener noreferrer">Providers<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
-</ul>
-<p>提供钱包接口服务</p>
-<p><a href="https://docs.ethers.org/v5/getting-started/"target="_blank" rel="external nofollow noopener noreferrer">Getting Started<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<h2 id="ganache-truffle">Ganache Truffle</h2>
-<p>本地部署以太网</p>
-<p>把这个看一遍基本就明白了
-<a href="https://trufflesuite.com/docs/truffle/quickstart/"target="_blank" rel="external nofollow noopener noreferrer">Truffle quickstart - Truffle Suite<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p>
-<p>oppenzepplin/contracts</p>
-<p>Secure Smart Contract library for Solidity</p>
+</div><p>输出：</p>
+<pre><code>[
+{
+&quot;id&quot;: 1,
+&quot;name&quot;: &quot;部门1&quot;,
+&quot;pid&quot;: 0,
+&quot;children&quot;: [
+{
+&quot;id&quot;: 2,
+&quot;name&quot;: &quot;部门2&quot;,
+&quot;pid&quot;: 1,
+&quot;children&quot;: []
+},
+{
+&quot;id&quot;: 3,
+&quot;name&quot;: &quot;部门3&quot;,
+&quot;pid&quot;: 1,
+&quot;children&quot;: [
+]}]}
+]
+</code></pre>
+<h1 id="解决">解决</h1>
+<h2 id="思路-1">思路 1</h2>
+<p>循环每一个 id，然后对每一个 id 查找 pid，复杂度 O($N^2$)</p>
+<p>这样可以吗？ 答案是不行的，要注意，这里每一个 parent 节点是可以有多个子节点的，子节点又是可以作为新的父母节点的。</p>
+<p>在进一步思考这个问题前，回忆 <strong>深拷贝</strong>的代码</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm install @openzeppelin/contracts
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">clone</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">var</span> <span class="nx">temp</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">key</span> <span class="k">in</span> <span class="nx">o</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">o</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&#34;object&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">temp</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">clone</span><span class="p">(</span><span class="nx">o</span><span class="p">[</span><span class="nx">key</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">temp</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">o</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">temp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="react-custom-hooks">react custom hooks</h2>
-<p>SWR &ldquo;stale-while-revalidate&rdquo;
-<a href="https://www.thisdot.co/blog/why-you-should-use-react-query-or-swr"target="_blank" rel="external nofollow noopener noreferrer">Why You Should Use React Query or SWR - This Dot Labs<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>
-<a href="https://swr.vercel.app/"target="_blank" rel="external nofollow noopener noreferrer">React Hooks for Data Fetching – SWR<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a>
-<a href="https://zhuanlan.zhihu.com/p/89570321"target="_blank" rel="external nofollow noopener noreferrer">SWR：最具潜力的 React Hooks 数据请求库 - 知乎<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></p></div><div class="post-footer" id="post-footer">
+</div><p>我们不难发现，这道题的 本质就是深拷贝！！
+只不过需要将深拷贝中的 if 判断换成寻找 pid。
+搞清楚这个后，代码就很容易写出来了。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title=2023-02-23&#32;10:58:03>Updated on 2023-02-23&nbsp;<a class="git-hash" href="https://github.com/TRoYals/myblogs/commit/dffa706e4850e395b2c12fb73c284b42cf65e182" rel="external nofollow noopener noreferrer" target="_blank" title="commit by Naglfar28(aozora00321@gmail.com) dffa706e4850e395b2c12fb73c284b42cf65e182: nft-market"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>dffa706</a></span>
-      </div></div>
+        <span title=2023-03-14&#32;00:07:53>Updated on 2023-03-14&nbsp;</span>
+      </div><div class="post-info-license">
+          <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+        </div></div>
     <div class="post-info-line">
-      <div class="post-info-md"><span><a href="/react-ts-solidity-nftmarket/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="https://github.com/TRoYals/myblogs/edit/main/content/posts/nftmarket/react&#43;TS&#43;Solidity&#43;NftMarket.md" title="Edit this page"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-edit">Edit this page</a></span></div>
+      <div class="post-info-md"><span><a href="/%E6%89%81%E5%B9%B3%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BD%ACtree/index.md" title="Read Markdown" class="link-to-markdown">Read Markdown</a></span><span><a href="https://github.com/TRoYals/myblogs/edit/main/content/posts/dirToTree/%e6%89%81%e5%b9%b3%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e8%bd%acTree.md" title="Edit this page"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-edit">Edit this page</a></span></div>
       <div class="post-info-share">
         <span></span>
       </div>
@@ -290,8 +339,8 @@
     </section>
   </div>
 
-  <div class="post-nav"><a href="/basic_of_agiles/" class="post-nav-item" rel="prev" title="Basic of Agiles &amp; Agile Testing"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Basic of Agiles &amp; Agile Testing</a>
-      <a href="/web_tool/" class="post-nav-item" rel="next" title="Web_tool">Web_tool<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav">
+      <a href="/%E5%A5%BD%E6%83%B3%E5%AD%A6flutter/" class="post-nav-item" rel="next" title="好想学Flutter啊">好想学Flutter啊<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="giscus">
           <script
