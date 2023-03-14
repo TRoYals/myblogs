@@ -4,15 +4,15 @@
     <link>https://naglfar28.com/</link>
     <description>Hugo theme - FixIt</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 25 Feb 2023 09:13:44 &#43;0800</lastBuildDate>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Mar 2023 23:01:13 &#43;0800</lastBuildDate>
       <atom:link href="https://naglfar28.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-  <title>交易系统</title>
-  <link>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</link>
-  <pubDate>Sat, 25 Feb 2023 09:13:44 &#43;0800</pubDate>
+  <title>obsidian_to_hugo workflow</title>
+  <link>https://naglfar28.com/obsidian_to_hugo-workflow/</link>
+  <pubDate>Tue, 14 Mar 2023 23:01:13 &#43;0800</pubDate>
   <author>TRoYals</author>
-  <guid>https://naglfar28.com/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/</guid>
-  <description><![CDATA[]]></description>
+  <guid>https://naglfar28.com/obsidian_to_hugo-workflow/</guid>
+  <description><![CDATA[基于obsidian与hugo的obsidian博客工作流 其实内容还是比较简单的，这里写的话主要是做一个记录。 obsidian 下载pandoc导出插件 社区]]></description>
 </item>
 <item>
   <title>Web_tool</title>

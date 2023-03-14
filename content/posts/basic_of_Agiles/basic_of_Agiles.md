@@ -31,7 +31,7 @@ resources:
 toc:
   enable: true
 math:
-  enable: false
+  enable: true
 lightgallery: false
 seo:
   images: []
