@@ -25,7 +25,7 @@
     avatarURL = "/images/avatar.png"
     title = "TRoYals"
     subtitle = "Our lady-loves, --phantasms of our brains,           --Dream fancies blown into soap-bubbles!"
-    typeit = true
+    typeit = false
     social = false
     disclaimer = ""
   [home.posts]
@@ -33,13 +33,13 @@
     paginate = 6
 
 [social]
-  GitHub = "xxxx"
+  GitHub = "https://github.com/TRoYals"
   Twitter = "xxxx"
   Instagram = "xxxx"
   Facebook = "xxxx"
   Telegram = "xxxx"
   Youtubelegacy = "xxxx"
-  Email = "xxxx@xxxx.com"
+  Email = "aozora00321@gmail.com"
   RSS = true
   [social.Mastodon]
     id = "@xxxx"

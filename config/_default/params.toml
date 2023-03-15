@@ -484,7 +484,7 @@ disableThemeInject = false
   # KaTeX mathematical formulas config (KaTeX https://katex.org/)
   # KaTeX 数学公式配置 (KaTeX https://katex.org/)
   [page.math]
-    enable = false
+    enable = true
     # default inline delimiter is $ ... $ and \( ... \)
     # 默认行内定界符是 $ ... $ 和 \( ... \)
     inlineLeftDelimiter = ""
@@ -736,7 +736,7 @@ disableThemeInject = false
     # Publisher info
     # 出版者信息
     [page.seo.publisher]
-      name = "Lruihao"
+      name = "TRoYals"
       logoUrl = "/images/avatar.png"
 
 # TypeIt config
