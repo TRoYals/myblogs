@@ -2,7 +2,7 @@
 title: "QA-Test"
 subtitle: ""
 date: 2023-02-17T15:50:48+08:00
-draft: false
+draft: true
 author: "TRoYals"
 authorLink: "Naglfar28.com"
 authorEmail: "aozora00321@gmail.com"
@@ -17,7 +17,7 @@ tags:
 categories:
   - QA-test
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 
 summary: ""
