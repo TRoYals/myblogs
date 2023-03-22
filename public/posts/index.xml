@@ -4,7 +4,15 @@
     <link>https://naglfar28.com/posts/</link>
     <description>All Posts | On the Naglfar</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Mar 2023 23:01:13 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Mar 2023 21:46:42 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>JavaScript面试（基础）</title>
+  <link>https://naglfar28.com/javascript%E9%9D%A2%E8%AF%95%E5%88%B7%E9%A2%98%E5%9F%BA%E7%A1%80/</link>
+  <pubDate>Tue, 21 Mar 2023 21:46:42 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/javascript%E9%9D%A2%E8%AF%95%E5%88%B7%E9%A2%98%E5%9F%BA%E7%A1%80/</guid>
+  <description><![CDATA[Map #card new Map() &mdash;创建map map.set(key,value)&mdash;根据键存储值 map.get(key) returns the value by the key. return undefined if key doesn&rsquo;t exists map.has(key) returns true if key exists, false otherwise map.delete(key) remove]]></description>
+</item>
+<item>
   <title>obsidian_to_hugo workflow</title>
   <link>https://naglfar28.com/obsidian_to_hugo-workflow/</link>
   <pubDate>Tue, 14 Mar 2023 23:01:13 &#43;0800</pubDate>
@@ -43,6 +51,14 @@
   <author>TRoYals</author>
   <guid>https://naglfar28.com/web_tool/</guid>
   <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>JavaScript面试（基础）</title>
+  <link>https://naglfar28.com/javascript%E9%9D%A2%E8%AF%95%E5%88%B7%E9%A2%98%E5%9F%BA%E7%A1%80/</link>
+  <pubDate>Tue, 21 Mar 2023 21:46:42 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/javascript%E9%9D%A2%E8%AF%95%E5%88%B7%E9%A2%98%E5%9F%BA%E7%A1%80/</guid>
+  <description><![CDATA[Map #card new Map() &mdash;创建map map.set(key,value)&mdash;根据键存储值 map.get(key) returns the value by the key. return undefined if key doesn&rsquo;t exists map.has(key) returns true if key exists, false otherwise map.delete(key) remove]]></description>
 </item>
 <item>
   <title>obsidian_to_hugo workflow</title>
