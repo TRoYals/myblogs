@@ -4,9 +4,25 @@
     <link>https://naglfar28.com/</link>
     <description>Hugo theme - FixIt</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 21 Mar 2023 21:46:42 &#43;0800</lastBuildDate>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</lastBuildDate>
       <atom:link href="https://naglfar28.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>token session cookie localStroage</title>
+  <link>https://naglfar28.com/token-session-cookie-localstroage/</link>
+  <pubDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/token-session-cookie-localstroage/</guid>
+  <description><![CDATA[一个启发式学习的案例，通过chatGPT | Feature | Session | Cookie | Token | |&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;|&mdash;&mdash;&ndash;|&mdash;&mdash;-| |Location | Server-side | Client-side | Client-side | |State | Stateful | Stateless | Stateless | |Lifetime | Expires after a period of inactivity or when the user logs out | Persistent or session-only | Expires after a certain period]]></description>
+</item>
+<item>
+  <title>二叉树</title>
+  <link>https://naglfar28.com/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+  <pubDate>Sat, 25 Mar 2023 21:02:10 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+  <description><![CDATA[二叉树递归遍历 略 ## 二叉树迭代法遍历 二叉树 前序迭代遍历 #card 定义一个栈和一个指针cur，初始时cur指向根节点，栈为空。 当cur不为空或者栈不为空]]></description>
+</item>
+<item>
   <title>JavaScript面试（基础）</title>
   <link>https://naglfar28.com/javascript%E9%9D%A2%E8%AF%95%E5%88%B7%E9%A2%98%E5%9F%BA%E7%A1%80/</link>
   <pubDate>Tue, 21 Mar 2023 21:46:42 &#43;0800</pubDate>

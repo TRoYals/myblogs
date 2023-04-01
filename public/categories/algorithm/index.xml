@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>algorithm - Category - On the Naglfar</title>
+    <link>https://naglfar28.com/categories/algorithm/</link>
+    <description>algorithm - Category - On the Naglfar</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 25 Mar 2023 21:02:10 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/categories/algorithm/" rel="self" type="application/rss+xml" /><item>
+  <title>二叉树</title>
+  <link>https://naglfar28.com/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+  <pubDate>Sat, 25 Mar 2023 21:02:10 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+  <description><![CDATA[二叉树递归遍历 略 ## 二叉树迭代法遍历 二叉树 前序迭代遍历 #card 定义一个栈和一个指针cur，初始时cur指向根节点，栈为空。 当cur不为空或者栈不为空]]></description>
+</item>
+</channel>
+</rss>

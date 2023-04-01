@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>web - Category - On the Naglfar</title>
+    <link>https://naglfar28.com/categories/web/</link>
+    <description>web - Category - On the Naglfar</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</lastBuildDate><atom:link href="https://naglfar28.com/categories/web/" rel="self" type="application/rss+xml" /><item>
+  <title>token session cookie localStroage</title>
+  <link>https://naglfar28.com/token-session-cookie-localstroage/</link>
+  <pubDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/token-session-cookie-localstroage/</guid>
+  <description><![CDATA[一个启发式学习的案例，通过chatGPT | Feature | Session | Cookie | Token | |&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;|&mdash;&mdash;&ndash;|&mdash;&mdash;-| |Location | Server-side | Client-side | Client-side | |State | Stateful | Stateless | Stateless | |Lifetime | Expires after a period of inactivity or when the user logs out | Persistent or session-only | Expires after a certain period]]></description>
+</item>
+</channel>
+</rss>
