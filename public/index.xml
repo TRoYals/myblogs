@@ -4,9 +4,17 @@
     <link>https://naglfar28.com/</link>
     <description>Hugo theme - FixIt</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>aozora00321@gmail.com (TRoYals)</managingEditor>
-      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</lastBuildDate>
+      <webMaster>aozora00321@gmail.com (TRoYals)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 02 Apr 2023 15:43:55 &#43;0800</lastBuildDate>
       <atom:link href="https://naglfar28.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>日语变形</title>
+  <link>https://naglfar28.com/%E6%97%A5%E8%AF%AD%E5%8F%98%E5%BD%A2/</link>
+  <pubDate>Sun, 02 Apr 2023 15:43:55 &#43;0800</pubDate>
+  <author>TRoYals</author>
+  <guid>https://naglfar28.com/%E6%97%A5%E8%AF%AD%E5%8F%98%E5%BD%A2/</guid>
+  <description><![CDATA[一节课讲完日语动词12种变形_哔哩哔哩_bilibili- 动词变形 辞书型：原型 基本型：包括原型和用言的活用型。 例如：行く（原型）、行ける（可]]></description>
+</item>
+<item>
   <title>token session cookie localStroage</title>
   <link>https://naglfar28.com/token-session-cookie-localstroage/</link>
   <pubDate>Wed, 29 Mar 2023 12:06:32 &#43;0800</pubDate>
@@ -20,7 +28,7 @@
   <pubDate>Sat, 25 Mar 2023 21:02:10 &#43;0800</pubDate>
   <author>TRoYals</author>
   <guid>https://naglfar28.com/%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
-  <description><![CDATA[二叉树递归遍历 略 ## 二叉树迭代法遍历 二叉树 前序迭代遍历 #card 定义一个栈和一个指针cur，初始时cur指向根节点，栈为空。 当cur不为空或者栈不为空]]></description>
+  <description><![CDATA[二叉树递归遍历 略 二叉树迭代法遍历 二叉树 前序迭代遍历 #card 定义一个栈和一个指针cur，初始时cur指向根节点，栈为空。 当cur不为空或者栈不为空时]]></description>
 </item>
 <item>
   <title>JavaScript面试（基础）</title>
